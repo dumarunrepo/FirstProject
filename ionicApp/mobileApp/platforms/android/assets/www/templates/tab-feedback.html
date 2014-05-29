@@ -1,0 +1,26 @@
+<ion-view title="Feedback">
+  <ion-content class="has-header">
+    <div class="container">
+      <header>
+        <div class="head-left">
+          <img src="img/m-icon.png" class="fleft" alt="" />  
+          <p class="tit">Feedback</p>
+        </div>
+        <div class="head-right">
+          <img src="img/logo-small.png" style="margin-top:-7px;" class="fleft" alt="" />
+          <img src="img/m-icon1.png" class="fright" alt="" /> 
+        </div>
+      </header>
+      <div class="wrapper">
+        <div class="feedback">
+          <form id="feedback" name="feedback">
+            <input type="text" name="name" id="name" placeholder="Name" class="field" />
+            <input type="text" name="name" id="name" placeholder="Email" class="field" />
+            <textarea cols="10" rows="5" class="field" placeholder="Feedback"></textarea>
+            <input type="submit" value="Submit" id="submit" class="sub-btn" ng-click="openPDF()"/>
+          </form>
+        </div> 
+      </div>   
+    </div>
+  </ion-content>
+</ion-view>
