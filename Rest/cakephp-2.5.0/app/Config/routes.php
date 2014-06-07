@@ -36,8 +36,11 @@
  */
 	CakePlugin::routes();
 
-Router::mapResources('rest_projects');
-Router::mapResources('rest_users');
+Router::mapResources('Projects');
+Router::mapResources('Users');
+Router::mapResources('Feedbacks');
+Router::mapResources('Sales');
+Router::mapResources('Supports');
 Router::parseExtensions();
 
 /**

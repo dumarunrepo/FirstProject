@@ -23,6 +23,15 @@ class RestProjectsController extends AppController {
 
     }
 
+    public function trackingInfoByProject($id) {
+        $Projects = $this->Project->query("select * from project_stage where project_id = '$id'");
+	$this->set(array(
+            'Projects' => $Projects,
+            '_serialize' => array('Projects')
+        ));
+
+    }
+
     public function add() {
         $this->Project->create();
         if ($this->Project->save($this->request->data)) {
