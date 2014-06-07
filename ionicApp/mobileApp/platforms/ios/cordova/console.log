@@ -671,3 +671,216 @@ Terminating in response to SpringBoard's termination.
 2014-05-30 00:07:34.810 HelloCordova[33548:a0b] [CDVTimer][TotalPluginStartup] 10.129988ms
 2014-05-30 00:07:34.935 HelloCordova[33548:a0b] Resetting plugins due to page load.
 2014-05-30 00:07:35.469 HelloCordova[33548:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-30 10:17:46.537 HelloCordova[34321:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 10:17:47.205 HelloCordova[34321:a0b] Unlimited access to network resources
+2014-05-30 10:17:47.227 HelloCordova[34321:a0b] [CDVTimer][statusbar] 6.817043ms
+2014-05-30 10:17:47.227 HelloCordova[34321:a0b] [CDVTimer][TotalPluginStartup] 7.332981ms
+2014-05-30 10:17:47.308 HelloCordova[34321:a0b] Resetting plugins due to page load.
+Terminating in response to SpringBoard's termination.
+2014-05-30 13:02:10.502 HelloCordova[34914:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 13:02:10.574 HelloCordova[34914:a0b] Unlimited access to network resources
+2014-05-30 13:02:10.630 HelloCordova[34914:a0b] [CDVTimer][statusbar] 7.929981ms
+2014-05-30 13:02:10.631 HelloCordova[34914:a0b] [CDVTimer][TotalPluginStartup] 8.459985ms
+2014-05-30 13:02:10.712 HelloCordova[34914:a0b] Resetting plugins due to page load.
+2014-05-30 13:02:20.332 HelloCordova[34914:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:10:13.554 HelloCordova[35912:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:10:13.749 HelloCordova[35912:a0b] Unlimited access to network resources
+2014-05-31 11:10:14.970 HelloCordova[35912:a0b] [CDVTimer][statusbar] 135.406017ms
+2014-05-31 11:10:14.970 HelloCordova[35912:a0b] [CDVTimer][TotalPluginStartup] 135.989010ms
+2014-05-31 11:10:15.112 HelloCordova[35912:a0b] Resetting plugins due to page load.
+2014-05-31 11:10:16.070 HelloCordova[35912:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:13:31.362 HelloCordova[36331:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:13:31.379 HelloCordova[36331:a0b] Unlimited access to network resources
+2014-05-31 11:13:31.428 HelloCordova[36331:a0b] [CDVTimer][statusbar] 15.152991ms
+2014-05-31 11:13:31.429 HelloCordova[36331:a0b] [CDVTimer][TotalPluginStartup] 15.884995ms
+2014-05-31 11:13:31.496 HelloCordova[36331:a0b] Resetting plugins due to page load.
+2014-05-31 11:13:32.566 HelloCordova[36331:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:14:26.480 HelloCordova[36755:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:14:26.490 HelloCordova[36755:a0b] Unlimited access to network resources
+2014-05-31 11:14:26.527 HelloCordova[36755:a0b] [CDVTimer][statusbar] 11.792004ms
+2014-05-31 11:14:26.527 HelloCordova[36755:a0b] [CDVTimer][TotalPluginStartup] 12.412012ms
+2014-05-31 11:14:26.711 HelloCordova[36755:a0b] Resetting plugins due to page load.
+2014-05-31 11:14:27.678 HelloCordova[36755:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:17:16.745 HelloCordova[37193:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:17:16.754 HelloCordova[37193:a0b] Unlimited access to network resources
+2014-05-31 11:17:16.785 HelloCordova[37193:a0b] [CDVTimer][statusbar] 9.692013ms
+2014-05-31 11:17:16.785 HelloCordova[37193:a0b] [CDVTimer][TotalPluginStartup] 10.258973ms
+2014-05-31 11:17:16.913 HelloCordova[37193:a0b] Resetting plugins due to page load.
+2014-05-31 11:17:17.853 HelloCordova[37193:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:18:04.976 HelloCordova[37609:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:18:04.990 HelloCordova[37609:a0b] Unlimited access to network resources
+2014-05-31 11:18:05.032 HelloCordova[37609:a0b] [CDVTimer][statusbar] 12.911022ms
+2014-05-31 11:18:05.033 HelloCordova[37609:a0b] [CDVTimer][TotalPluginStartup] 13.620973ms
+2014-05-31 11:18:05.205 HelloCordova[37609:a0b] Resetting plugins due to page load.
+2014-05-31 11:18:09.885 HelloCordova[37609:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/beta
+2014-05-31 11:22:26.144 HelloCordova[38038:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:22:26.153 HelloCordova[38038:a0b] Unlimited access to network resources
+2014-05-31 11:22:26.182 HelloCordova[38038:a0b] [CDVTimer][statusbar] 9.804010ms
+2014-05-31 11:22:26.183 HelloCordova[38038:a0b] [CDVTimer][TotalPluginStartup] 10.326982ms
+2014-05-31 11:22:26.286 HelloCordova[38038:a0b] Resetting plugins due to page load.
+2014-05-31 11:22:28.684 HelloCordova[38038:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:23:32.469 HelloCordova[38460:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:23:32.480 HelloCordova[38460:a0b] Unlimited access to network resources
+2014-05-31 11:23:32.524 HelloCordova[38460:a0b] [CDVTimer][statusbar] 18.764973ms
+2014-05-31 11:23:32.525 HelloCordova[38460:a0b] [CDVTimer][TotalPluginStartup] 20.370007ms
+2014-05-31 11:23:32.602 HelloCordova[38460:a0b] Resetting plugins due to page load.
+2014-05-31 11:23:41.438 HelloCordova[38460:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:25:53.104 HelloCordova[38888:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:25:53.115 HelloCordova[38888:a0b] Unlimited access to network resources
+2014-05-31 11:25:53.174 HelloCordova[38888:a0b] [CDVTimer][statusbar] 14.373958ms
+2014-05-31 11:25:53.176 HelloCordova[38888:a0b] [CDVTimer][TotalPluginStartup] 16.180992ms
+2014-05-31 11:25:53.379 HelloCordova[38888:a0b] Resetting plugins due to page load.
+2014-05-31 11:25:54.030 HelloCordova[38888:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:26:41.468 HelloCordova[39306:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:26:41.486 HelloCordova[39306:a0b] Unlimited access to network resources
+2014-05-31 11:26:41.528 HelloCordova[39306:a0b] [CDVTimer][statusbar] 18.634021ms
+2014-05-31 11:26:41.530 HelloCordova[39306:a0b] [CDVTimer][TotalPluginStartup] 20.089984ms
+2014-05-31 11:26:41.585 HelloCordova[39306:a0b] Resetting plugins due to page load.
+2014-05-31 11:26:42.185 HelloCordova[39306:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:32:10.402 HelloCordova[39740:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:32:10.411 HelloCordova[39740:a0b] Unlimited access to network resources
+2014-05-31 11:32:10.441 HelloCordova[39740:a0b] [CDVTimer][statusbar] 10.048985ms
+2014-05-31 11:32:10.441 HelloCordova[39740:a0b] [CDVTimer][TotalPluginStartup] 10.627031ms
+2014-05-31 11:32:10.551 HelloCordova[39740:a0b] Resetting plugins due to page load.
+2014-05-31 11:32:11.216 HelloCordova[39740:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:33:04.849 HelloCordova[40159:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:33:04.859 HelloCordova[40159:a0b] Unlimited access to network resources
+2014-05-31 11:33:04.911 HelloCordova[40159:a0b] [CDVTimer][statusbar] 9.763956ms
+2014-05-31 11:33:04.912 HelloCordova[40159:a0b] [CDVTimer][TotalPluginStartup] 10.500014ms
+2014-05-31 11:33:05.036 HelloCordova[40159:a0b] Resetting plugins due to page load.
+2014-05-31 11:33:05.657 HelloCordova[40159:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:33:50.627 HelloCordova[40159:a0b] Received memory warning.
+2014-05-31 11:35:18.800 HelloCordova[40617:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:35:18.820 HelloCordova[40617:a0b] Unlimited access to network resources
+2014-05-31 11:35:18.861 HelloCordova[40617:a0b] [CDVTimer][statusbar] 17.351985ms
+2014-05-31 11:35:18.866 HelloCordova[40617:a0b] [CDVTimer][TotalPluginStartup] 22.176981ms
+2014-05-31 11:35:18.950 HelloCordova[40617:a0b] Resetting plugins due to page load.
+2014-05-31 11:35:19.685 HelloCordova[40617:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:36:07.447 HelloCordova[41036:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:36:07.469 HelloCordova[41036:a0b] Unlimited access to network resources
+2014-05-31 11:36:07.510 HelloCordova[41036:a0b] [CDVTimer][statusbar] 15.543997ms
+2014-05-31 11:36:07.512 HelloCordova[41036:a0b] [CDVTimer][TotalPluginStartup] 17.568052ms
+2014-05-31 11:36:07.573 HelloCordova[41036:a0b] Resetting plugins due to page load.
+2014-05-31 11:36:08.216 HelloCordova[41036:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:37:50.123 HelloCordova[41433:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:37:50.129 HelloCordova[41433:a0b] Unlimited access to network resources
+2014-05-31 11:37:50.151 HelloCordova[41433:a0b] [CDVTimer][statusbar] 6.845951ms
+2014-05-31 11:37:50.151 HelloCordova[41433:a0b] [CDVTimer][TotalPluginStartup] 7.345021ms
+2014-05-31 11:37:50.181 HelloCordova[41433:a0b] Resetting plugins due to page load.
+2014-05-31 11:37:50.659 HelloCordova[41433:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:38:30.423 HelloCordova[41854:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:38:30.433 HelloCordova[41854:a0b] Unlimited access to network resources
+2014-05-31 11:38:30.470 HelloCordova[41854:a0b] [CDVTimer][statusbar] 9.821057ms
+2014-05-31 11:38:30.470 HelloCordova[41854:a0b] [CDVTimer][TotalPluginStartup] 10.382950ms
+2014-05-31 11:38:30.643 HelloCordova[41854:a0b] Resetting plugins due to page load.
+2014-05-31 11:38:31.302 HelloCordova[41854:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:39:53.357 HelloCordova[42277:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:39:53.367 HelloCordova[42277:a0b] Unlimited access to network resources
+2014-05-31 11:39:53.406 HelloCordova[42277:a0b] [CDVTimer][statusbar] 11.012018ms
+2014-05-31 11:39:53.407 HelloCordova[42277:a0b] [CDVTimer][TotalPluginStartup] 11.915982ms
+2014-05-31 11:39:53.458 HelloCordova[42277:a0b] Resetting plugins due to page load.
+2014-05-31 11:39:54.055 HelloCordova[42277:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:42:51.023 HelloCordova[42705:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 11:42:51.039 HelloCordova[42705:a0b] Unlimited access to network resources
+2014-05-31 11:42:51.086 HelloCordova[42705:a0b] [CDVTimer][statusbar] 23.275018ms
+2014-05-31 11:42:51.088 HelloCordova[42705:a0b] [CDVTimer][TotalPluginStartup] 24.342000ms
+2014-05-31 11:42:51.245 HelloCordova[42705:a0b] Resetting plugins due to page load.
+2014-05-31 11:42:51.890 HelloCordova[42705:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-05-31 11:43:00.355 HelloCordova[42705:a0b] Resetting plugins due to page load.
+2014-05-31 11:43:04.431 HelloCordova[42705:a0b] Finished load of: http://www.i-drain.net/userfiles/file/einbauanleitung_iboard.pdf
+2014-05-31 15:14:52.193 HelloCordova[43287:a0b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 15:14:52.433 HelloCordova[43287:a0b] Unlimited access to network resources
+2014-05-31 15:14:52.555 HelloCordova[43287:a0b] [CDVTimer][statusbar] 7.772982ms
+2014-05-31 15:14:52.556 HelloCordova[43287:a0b] [CDVTimer][TotalPluginStartup] 8.300006ms
+2014-05-31 15:14:52.599 HelloCordova[43287:a0b] Resetting plugins due to page load.
+2014-05-31 15:14:53.421 HelloCordova[43287:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-03 22:31:43.989 HelloCordova[4325:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-03 22:31:44.264 HelloCordova[4325:a0b] Unlimited access to network resources
+2014-06-03 22:31:45.954 HelloCordova[4325:a0b] [CDVTimer][statusbar] 121.556044ms
+2014-06-03 22:31:45.954 HelloCordova[4325:a0b] [CDVTimer][TotalPluginStartup] 122.003019ms
+2014-06-03 22:31:46.101 HelloCordova[4325:a0b] Resetting plugins due to page load.
+2014-06-03 22:31:47.673 HelloCordova[4325:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSaveGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFlatness: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextAddPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextDrawPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextRestoreGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSaveGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFlatness: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextAddPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextDrawPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextRestoreGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+2014-06-03 22:37:06.178 HelloCordova[4325:a0b] Resetting plugins due to page load.
+2014-06-03 22:37:08.724 HelloCordova[4325:a0b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2014-06-03 22:37:08.724 HelloCordova[4325:a0b] Resetting plugins due to page load.
+2014-06-03 22:37:45.541 HelloCordova[4764:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-03 22:37:45.547 HelloCordova[4764:a0b] Unlimited access to network resources
+2014-06-03 22:37:45.576 HelloCordova[4764:a0b] [CDVTimer][statusbar] 9.995997ms
+2014-06-03 22:37:45.577 HelloCordova[4764:a0b] [CDVTimer][TotalPluginStartup] 10.592043ms
+2014-06-03 22:37:45.684 HelloCordova[4764:a0b] Resetting plugins due to page load.
+2014-06-03 22:37:46.816 HelloCordova[4764:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 08:31:49.230 HelloCordova[13224:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 08:31:49.394 HelloCordova[13224:a0b] Unlimited access to network resources
+2014-06-07 08:31:50.651 HelloCordova[13224:a0b] [CDVTimer][statusbar] 154.158950ms
+2014-06-07 08:31:50.651 HelloCordova[13224:a0b] [CDVTimer][TotalPluginStartup] 154.745996ms
+2014-06-07 08:31:50.746 HelloCordova[13224:a0b] Resetting plugins due to page load.
+2014-06-07 08:31:51.181 HelloCordova[13224:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 08:33:06.616 HelloCordova[13224:a0b] Received memory warning.
+2014-06-07 11:20:19.298 HelloCordova[13816:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 11:20:19.591 HelloCordova[13816:a0b] Unlimited access to network resources
+2014-06-07 11:20:20.747 HelloCordova[13816:a0b] [CDVTimer][statusbar] 125.184953ms
+2014-06-07 11:20:20.748 HelloCordova[13816:a0b] [CDVTimer][TotalPluginStartup] 125.655055ms
+2014-06-07 11:20:20.842 HelloCordova[13816:a0b] Resetting plugins due to page load.
+2014-06-07 11:20:22.671 HelloCordova[13816:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 11:58:48.578 HelloCordova[14268:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 11:58:48.586 HelloCordova[14268:a0b] Unlimited access to network resources
+2014-06-07 11:58:48.615 HelloCordova[14268:a0b] [CDVTimer][statusbar] 8.392036ms
+2014-06-07 11:58:48.616 HelloCordova[14268:a0b] [CDVTimer][TotalPluginStartup] 8.790016ms
+2014-06-07 11:58:48.714 HelloCordova[14268:a0b] Resetting plugins due to page load.
+2014-06-07 11:58:54.559 HelloCordova[14268:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 12:02:08.491 HelloCordova[14714:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 12:02:08.501 HelloCordova[14714:a0b] Unlimited access to network resources
+2014-06-07 12:02:08.577 HelloCordova[14714:a0b] [CDVTimer][statusbar] 13.541996ms
+2014-06-07 12:02:08.577 HelloCordova[14714:a0b] [CDVTimer][TotalPluginStartup] 14.200985ms
+2014-06-07 12:02:08.799 HelloCordova[14714:a0b] Resetting plugins due to page load.
+2014-06-07 12:02:09.901 HelloCordova[14714:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 12:03:02.245 HelloCordova[15139:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 12:03:02.256 HelloCordova[15139:a0b] Unlimited access to network resources
+2014-06-07 12:03:02.294 HelloCordova[15139:a0b] [CDVTimer][statusbar] 13.804018ms
+2014-06-07 12:03:02.295 HelloCordova[15139:a0b] [CDVTimer][TotalPluginStartup] 15.135050ms
+2014-06-07 12:03:02.392 HelloCordova[15139:a0b] Resetting plugins due to page load.
+2014-06-07 12:03:03.467 HelloCordova[15139:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-07 12:05:08.731 HelloCordova[15575:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 12:05:08.741 HelloCordova[15575:a0b] Unlimited access to network resources
+2014-06-07 12:05:08.776 HelloCordova[15575:a0b] [CDVTimer][statusbar] 11.337042ms
+2014-06-07 12:05:08.777 HelloCordova[15575:a0b] [CDVTimer][TotalPluginStartup] 11.910975ms
+2014-06-07 12:05:08.902 HelloCordova[15575:a0b] Resetting plugins due to page load.
+2014-06-07 12:05:13.591 HelloCordova[15575:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/beta
+2014-06-07 12:05:41.800 HelloCordova[16000:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 12:05:41.812 HelloCordova[16000:a0b] Unlimited access to network resources
+2014-06-07 12:05:41.852 HelloCordova[16000:a0b] [CDVTimer][statusbar] 15.600979ms
+2014-06-07 12:05:41.856 HelloCordova[16000:a0b] [CDVTimer][TotalPluginStartup] 19.627988ms
+2014-06-07 12:05:42.002 HelloCordova[16000:a0b] Resetting plugins due to page load.
+2014-06-07 12:05:42.649 HelloCordova[16000:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
