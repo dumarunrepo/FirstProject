@@ -8,11 +8,6 @@ CREATE TABLE projects (
     end_date DATETIME DEFAULT NULL
 );
 
-INSERT INTO projects (project_id,project_name,is_completed,description, start_date) VALUES ('sdhdsk','monish_1', 'true', 'Description', NOW());
-INSERT INTO projects (project_id,project_name,is_completed,description, start_date) VALUES ('ffdsdf','monish_2', 'true', 'Description', NOW());
-INSERT INTO projects (project_id,project_name,is_completed,description, start_date) VALUES ('dshgkd','monish_3', 'true', 'Description', NOW());
-INSERT INTO projects (project_id,project_name,is_completed,description, start_date) VALUES ('dfasds','monish_4', 'true', 'Description', NOW());
-
 CREATE TABLE IF NOT EXISTS permission (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     project_id VARCHAR(50),
@@ -20,8 +15,6 @@ CREATE TABLE IF NOT EXISTS permission (
     permission_type int(1) DEFAULT 0,
     UNIQUE KEY (project_id, user_id)
 );
-
-insert into permission (project_id, user_id, permission_type) values('sdhdsk','5',1);
 
 CREATE TABLE IF NOT EXISTS project_stage (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -32,9 +25,6 @@ CREATE TABLE IF NOT EXISTS project_stage (
     end_date DATETIME DEFAULT NULL,
     report_url TEXT
 );
-
-INSERT INTO project_stage(project_id,project_stage,project_status,report_url) values ('sdhdsk','RNA Analysis','progress','url_1');
-INSERT INTO project_stage(project_id,project_stage,project_status,report_url) values ('sdhdsk','RNA Analysis','completed','url_2');
 
 CREATE TABLE IF NOT EXISTS `users`
 (
@@ -57,7 +47,6 @@ phone_no bigint,
 address TEXT
 );
 
-
 CREATE TABLE IF NOT EXISTS `feedbacks`
 (
 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -73,7 +62,6 @@ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 email varchar(50) NOT NULL DEFAULT 'support@bionivid.com',
 contactNo varchar(50) NOT NULL
 );
-insert into supports(email, contactNo) values ('support@bionivid.com', '9901199649');
 
 CREATE TABLE IF NOT EXISTS `sales`
 (
@@ -81,5 +69,4 @@ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 email varchar(50) NOT NULL DEFAULT 'sales@bionivid.com',
 contactNo varchar(50) NOT NULL
 );
-insert into sales(email, contactNo) values ('sales@bionivid.com', '9901199649');
 
