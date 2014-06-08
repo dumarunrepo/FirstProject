@@ -38,7 +38,8 @@ INSERT INTO project_stage(project_id,project_stage,project_status,report_url) va
 
 CREATE TABLE IF NOT EXISTS `users`
 (
-user_id int(11) NOT NULL PRIMARY KEY,
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+user_id bigint NOT NULL,
 user_clientname varchar(25),
 user_fullname varchar(25) NOT NULL DEFAULT 'BIONIVID_USER',
 user_email varchar(50) NOT NULL DEFAULT 'BIONIVID_USER@bionivid.com',
@@ -46,10 +47,21 @@ user_password varchar(50) NOT NULL,
 user_status tinyint(1) NOT NULL DEFAULT '0'
 );
 
+CREATE TABLE IF NOT EXISTS `clients`
+(
+name varchar(50) NOT NULL PRIMARY KEY,
+email varchar(50) NOT NULL,
+designation varchar(50) NOT NULL,
+organisation varchar(50) NOT NULL,
+phone_no bigint,
+address TEXT
+);
+
+
 CREATE TABLE IF NOT EXISTS `feedbacks`
 (
 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-user_id int(11) NOT NULL,
+user_id bigint NOT NULL,
 user_fullname varchar(25) NOT NULL DEFAULT 'BIONIVID_USER',
 user_email varchar(50) NOT NULL DEFAULT 'BIONIVID_USER@bionivid.com',
 user_feedback TEXT NOT NULL
