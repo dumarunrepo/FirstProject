@@ -98,6 +98,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+    .state('tab.projectInfoView', {
+      url: '/projectInfoView',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/tab-project-info-view.html',
+          controller: 'ProjectInfoViewCtrl'
+        }
+      }
+    })
+
+    .state('tab.trackProjectView', {
+      url: '/trackProjectView',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/tab-track-project-view.html',
+          controller: 'TrackProjectViewCtrl'
+        }
+      }
+    })
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
 
