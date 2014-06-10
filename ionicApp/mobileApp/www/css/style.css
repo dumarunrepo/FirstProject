@@ -115,7 +115,7 @@ background-color: #a6ce38;
 .sales a:hover{background:#a6ce38 url(../img/m6-hover.png) 55px 30px no-repeat; padding:10px; color:#fff;}
 .sales a span{width:100%; float:left;line-height:24px; margin-top:90px; text-align:center;}
 
-.feedback{background:#fff; width:280px; float:left; padding:20px; -webkit-box-shadow: inset 0 7px 20px -20px rgba(0,0,0,0.8);
+.feedback{background:#fff; width:100%; float:left; padding:20px; -webkit-box-shadow: inset 0 7px 20px -20px rgba(0,0,0,0.8);
     -moz-box-shadow: inset 0 7px 20px -20px rgba(0,0,0,0.8);
     box-shadow: inset 0 20px 7px -20px rgba(0,0,0,0.8);}
 .field{width:260px !important; margin-bottom:20px; border:#dddddd 1px solid; font-family:Verdana, Geneva, sans-serif; border-radius:20px !important;

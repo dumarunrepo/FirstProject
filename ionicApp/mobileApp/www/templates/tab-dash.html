@@ -8,12 +8,8 @@
       <div class="wrapper">
         <div class="content">
           <div class="logo"> <a href="#"> <img src="img/logo.png" alt=""></a></div>
-              <select id="select" name="select" class="select">
-                <option value="option1">---- Select Project ----</option>
-                <option value="option1">Project 1</option>
-                <option value="option1">Project 2</option>
-                <option value="option1">Project 3</option>
-                <option value="option1">Project 4</option>
+              <select class="select" ng-model="projectSelected" ng-options="data.project_name for data in projectList">
+                <option>Select</option>
               </select>
               <button ng-click="showBetaScreen()">Go!</button>
         </div>
