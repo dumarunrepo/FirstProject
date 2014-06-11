@@ -8,7 +8,7 @@ CREATE TABLE projects (
     end_date DATETIME DEFAULT NULL
 );
 
-CREATE TABLE IF NOT EXISTS permission (
+CREATE TABLE IF NOT EXISTS permissions (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     project_id VARCHAR(50),
     user_id VARCHAR(50),
