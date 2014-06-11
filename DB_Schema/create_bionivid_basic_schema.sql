@@ -1,11 +1,12 @@
 CREATE TABLE projects (
-    project_id VARCHAR(50) PRIMARY KEY,
+    project_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     project_name VARCHAR(50), 
     is_completed BOOLEAN DEFAULT 0,
     client VARCHAR(50) DEFAULT 'Bionivid',
     description TEXT,
     start_date DATETIME DEFAULT NULL,
-    end_date DATETIME DEFAULT NULL
+    end_date DATETIME DEFAULT NULL,
+    UNIQUE KEY (project_name, client)
 );
 
 CREATE TABLE IF NOT EXISTS permissions (
