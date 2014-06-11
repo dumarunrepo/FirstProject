@@ -18,6 +18,16 @@ angular.module('starter.factories', [])
         return $http.get('http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/RestProjects/indexByUser/' + no + '.json');
     }
 
+    BNAppGenericFactory.fetchProjectDetails = function (no) {
+        return $http.get('http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/RestProjects/view/' + no + '.json');
+    }
+
+    BNAppGenericFactory.fetchProjectTrackingDetails = function (no) {
+        return $http.get('http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/RestProjects/trackingInfoByProject/' + no + '.json');
+    }
+
+    
+
     //HTTP Post method:Save the configuration
     BNAppGenericFactory.saveConfig = function (postData) {
         var url = 'updateKeywordRedirect';

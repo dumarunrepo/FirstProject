@@ -8,10 +8,12 @@
       <div class="wrapper">
         <div class="content">
           <div class="logo"> <a href="#"> <img src="img/logo.png" alt=""></a></div>
-              <select class="select" ng-model="projectSelected" ng-options="data.project_name for data in projectList">
-                <option>Select</option>
+              <input type="text" placeholder="Enter the mobile number">
+              <select class="select" ng-options="data.project_name for data in projectList" ng-model="bioNivid.projectSelected">
+                <option value="">Select Project</option>
               </select>
-              <button ng-click="showBetaScreen()">Go!</button>
+              
+              <input type="button" ng-click="showBetaScreen()"/>
         </div>
       </div>
     </div>

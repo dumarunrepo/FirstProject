@@ -1171,3 +1171,217 @@ Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContex
 2014-06-09 20:09:21.302 HelloCordova[39986:a0b] [CDVTimer][TotalPluginStartup] 10.567009ms
 2014-06-09 20:09:21.420 HelloCordova[39986:a0b] Resetting plugins due to page load.
 2014-06-09 20:09:21.721 HelloCordova[39986:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html
+2014-06-10 20:41:20.152 HelloCordova[42411:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 20:41:20.230 HelloCordova[42411:a0b] Unlimited access to network resources
+2014-06-10 20:41:21.330 HelloCordova[42411:a0b] [CDVTimer][statusbar] 133.118033ms
+2014-06-10 20:41:21.331 HelloCordova[42411:a0b] [CDVTimer][TotalPluginStartup] 133.596957ms
+2014-06-10 20:41:21.430 HelloCordova[42411:a0b] Resetting plugins due to page load.
+2014-06-10 20:41:34.033 HelloCordova[42411:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:09:41.969 HelloCordova[42878:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:09:41.975 HelloCordova[42878:a0b] Unlimited access to network resources
+2014-06-10 21:09:45.054 HelloCordova[42878:a0b] [CDVTimer][statusbar] 95.378041ms
+2014-06-10 21:09:45.054 HelloCordova[42878:a0b] [CDVTimer][TotalPluginStartup] 95.815003ms
+2014-06-10 21:09:45.166 HelloCordova[42878:a0b] Resetting plugins due to page load.
+2014-06-10 21:09:50.902 HelloCordova[42878:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:25:44.386 HelloCordova[43332:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:25:44.402 HelloCordova[43332:a0b] Unlimited access to network resources
+2014-06-10 21:25:44.425 HelloCordova[43332:a0b] [CDVTimer][statusbar] 7.672012ms
+2014-06-10 21:25:44.426 HelloCordova[43332:a0b] [CDVTimer][TotalPluginStartup] 8.056998ms
+2014-06-10 21:25:44.506 HelloCordova[43332:a0b] Resetting plugins due to page load.
+2014-06-10 21:25:45.687 HelloCordova[43332:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:28:00.726 HelloCordova[43765:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:28:00.733 HelloCordova[43765:a0b] Unlimited access to network resources
+2014-06-10 21:28:00.764 HelloCordova[43765:a0b] [CDVTimer][statusbar] 9.128988ms
+2014-06-10 21:28:00.764 HelloCordova[43765:a0b] [CDVTimer][TotalPluginStartup] 9.635031ms
+2014-06-10 21:28:00.862 HelloCordova[43765:a0b] Resetting plugins due to page load.
+2014-06-10 21:28:02.657 HelloCordova[43765:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:31:50.127 HelloCordova[44229:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:31:50.133 HelloCordova[44229:a0b] Unlimited access to network resources
+2014-06-10 21:31:50.156 HelloCordova[44229:a0b] [CDVTimer][statusbar] 7.077992ms
+2014-06-10 21:31:50.157 HelloCordova[44229:a0b] [CDVTimer][TotalPluginStartup] 7.571995ms
+2014-06-10 21:31:50.257 HelloCordova[44229:a0b] Resetting plugins due to page load.
+2014-06-10 21:31:51.536 HelloCordova[44229:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:33:21.069 HelloCordova[44656:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:33:21.075 HelloCordova[44656:a0b] Unlimited access to network resources
+2014-06-10 21:33:21.099 HelloCordova[44656:a0b] [CDVTimer][statusbar] 7.161021ms
+2014-06-10 21:33:21.100 HelloCordova[44656:a0b] [CDVTimer][TotalPluginStartup] 7.632971ms
+2014-06-10 21:33:21.194 HelloCordova[44656:a0b] Resetting plugins due to page load.
+2014-06-10 21:33:22.441 HelloCordova[44656:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:38:00.841 HelloCordova[45099:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:38:00.848 HelloCordova[45099:a0b] Unlimited access to network resources
+2014-06-10 21:38:00.874 HelloCordova[45099:a0b] [CDVTimer][statusbar] 6.882012ms
+2014-06-10 21:38:00.874 HelloCordova[45099:a0b] [CDVTimer][TotalPluginStartup] 7.367969ms
+2014-06-10 21:38:00.975 HelloCordova[45099:a0b] Resetting plugins due to page load.
+2014-06-10 21:38:02.277 HelloCordova[45099:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:38:41.969 HelloCordova[45521:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:38:41.981 HelloCordova[45521:a0b] Unlimited access to network resources
+2014-06-10 21:38:42.016 HelloCordova[45521:a0b] [CDVTimer][statusbar] 11.460006ms
+2014-06-10 21:38:42.016 HelloCordova[45521:a0b] [CDVTimer][TotalPluginStartup] 12.155056ms
+2014-06-10 21:38:42.231 HelloCordova[45521:a0b] Resetting plugins due to page load.
+2014-06-10 21:38:43.172 HelloCordova[45521:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:39:43.138 HelloCordova[45953:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:39:43.148 HelloCordova[45953:a0b] Unlimited access to network resources
+2014-06-10 21:39:43.186 HelloCordova[45953:a0b] [CDVTimer][statusbar] 10.456026ms
+2014-06-10 21:39:43.186 HelloCordova[45953:a0b] [CDVTimer][TotalPluginStartup] 11.061013ms
+2014-06-10 21:39:43.283 HelloCordova[45953:a0b] Resetting plugins due to page load.
+2014-06-10 21:39:44.231 HelloCordova[45953:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:40:47.516 HelloCordova[46380:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:40:47.527 HelloCordova[46380:a0b] Unlimited access to network resources
+2014-06-10 21:40:47.562 HelloCordova[46380:a0b] [CDVTimer][statusbar] 9.779036ms
+2014-06-10 21:40:47.563 HelloCordova[46380:a0b] [CDVTimer][TotalPluginStartup] 10.513961ms
+2014-06-10 21:40:47.698 HelloCordova[46380:a0b] Resetting plugins due to page load.
+2014-06-10 21:40:56.757 HelloCordova[46380:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:45:47.627 HelloCordova[46822:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:45:47.633 HelloCordova[46822:a0b] Unlimited access to network resources
+2014-06-10 21:45:47.655 HelloCordova[46822:a0b] [CDVTimer][statusbar] 6.924033ms
+2014-06-10 21:45:47.656 HelloCordova[46822:a0b] [CDVTimer][TotalPluginStartup] 7.448018ms
+2014-06-10 21:45:47.740 HelloCordova[46822:a0b] Resetting plugins due to page load.
+2014-06-10 21:45:48.709 HelloCordova[46822:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 21:48:14.393 HelloCordova[47255:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 21:48:14.402 HelloCordova[47255:a0b] Unlimited access to network resources
+2014-06-10 21:48:14.443 HelloCordova[47255:a0b] [CDVTimer][statusbar] 15.329003ms
+2014-06-10 21:48:14.443 HelloCordova[47255:a0b] [CDVTimer][TotalPluginStartup] 15.969038ms
+2014-06-10 21:48:14.616 HelloCordova[47255:a0b] Resetting plugins due to page load.
+2014-06-10 21:48:15.648 HelloCordova[47255:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:00:05.545 HelloCordova[47723:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:00:05.556 HelloCordova[47723:a0b] Unlimited access to network resources
+2014-06-10 22:00:05.594 HelloCordova[47723:a0b] [CDVTimer][statusbar] 13.813972ms
+2014-06-10 22:00:05.595 HelloCordova[47723:a0b] [CDVTimer][TotalPluginStartup] 14.511049ms
+2014-06-10 22:00:05.726 HelloCordova[47723:a0b] Resetting plugins due to page load.
+2014-06-10 22:00:06.832 HelloCordova[47723:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:00:56.687 HelloCordova[48118:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:00:56.694 HelloCordova[48118:a0b] Unlimited access to network resources
+2014-06-10 22:00:56.716 HelloCordova[48118:a0b] [CDVTimer][statusbar] 6.883979ms
+2014-06-10 22:00:56.717 HelloCordova[48118:a0b] [CDVTimer][TotalPluginStartup] 7.329047ms
+2014-06-10 22:00:56.743 HelloCordova[48118:a0b] Resetting plugins due to page load.
+2014-06-10 22:00:57.974 HelloCordova[48118:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:01:40.422 HelloCordova[48542:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:01:40.438 HelloCordova[48542:a0b] Unlimited access to network resources
+2014-06-10 22:01:40.487 HelloCordova[48542:a0b] [CDVTimer][statusbar] 18.216014ms
+2014-06-10 22:01:40.491 HelloCordova[48542:a0b] [CDVTimer][TotalPluginStartup] 21.770000ms
+2014-06-10 22:01:40.584 HelloCordova[48542:a0b] Resetting plugins due to page load.
+2014-06-10 22:01:41.539 HelloCordova[48542:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:06:11.236 HelloCordova[48983:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:06:11.242 HelloCordova[48983:a0b] Unlimited access to network resources
+2014-06-10 22:06:11.273 HelloCordova[48983:a0b] [CDVTimer][statusbar] 10.125995ms
+2014-06-10 22:06:11.273 HelloCordova[48983:a0b] [CDVTimer][TotalPluginStartup] 10.646045ms
+2014-06-10 22:06:11.384 HelloCordova[48983:a0b] Resetting plugins due to page load.
+2014-06-10 22:06:12.364 HelloCordova[48983:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:45:37.470 HelloCordova[49451:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:45:37.476 HelloCordova[49451:a0b] Unlimited access to network resources
+2014-06-10 22:45:37.499 HelloCordova[49451:a0b] [CDVTimer][statusbar] 7.230997ms
+2014-06-10 22:45:37.499 HelloCordova[49451:a0b] [CDVTimer][TotalPluginStartup] 7.708967ms
+2014-06-10 22:45:37.593 HelloCordova[49451:a0b] Resetting plugins due to page load.
+2014-06-10 22:45:38.539 HelloCordova[49451:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 22:57:37.845 HelloCordova[49905:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 22:57:37.853 HelloCordova[49905:a0b] Unlimited access to network resources
+2014-06-10 22:57:37.881 HelloCordova[49905:a0b] [CDVTimer][statusbar] 9.303033ms
+2014-06-10 22:57:37.882 HelloCordova[49905:a0b] [CDVTimer][TotalPluginStartup] 10.141015ms
+2014-06-10 22:57:37.968 HelloCordova[49905:a0b] Resetting plugins due to page load.
+2014-06-10 22:57:39.332 HelloCordova[49905:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 23:04:53.257 HelloCordova[50348:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 23:04:53.264 HelloCordova[50348:a0b] Unlimited access to network resources
+2014-06-10 23:04:53.288 HelloCordova[50348:a0b] [CDVTimer][statusbar] 7.366002ms
+2014-06-10 23:04:53.289 HelloCordova[50348:a0b] [CDVTimer][TotalPluginStartup] 7.826030ms
+2014-06-10 23:04:53.414 HelloCordova[50348:a0b] Resetting plugins due to page load.
+2014-06-10 23:06:39.493 HelloCordova[50784:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 23:06:39.503 HelloCordova[50784:a0b] Unlimited access to network resources
+2014-06-10 23:06:39.547 HelloCordova[50784:a0b] [CDVTimer][statusbar] 19.298017ms
+2014-06-10 23:06:39.547 HelloCordova[50784:a0b] [CDVTimer][TotalPluginStartup] 19.905031ms
+2014-06-10 23:06:39.811 HelloCordova[50784:a0b] Resetting plugins due to page load.
+2014-06-10 23:06:40.602 HelloCordova[50784:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-10 23:10:56.750 HelloCordova[51224:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 23:10:56.757 HelloCordova[51224:a0b] Unlimited access to network resources
+2014-06-10 23:10:56.826 HelloCordova[51224:a0b] [CDVTimer][statusbar] 15.151024ms
+2014-06-10 23:10:56.826 HelloCordova[51224:a0b] [CDVTimer][TotalPluginStartup] 15.855968ms
+2014-06-10 23:10:56.977 HelloCordova[51224:a0b] Resetting plugins due to page load.
+2014-06-10 23:10:58.134 HelloCordova[51224:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 19:14:33.034 HelloCordova[55133:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 19:14:33.188 HelloCordova[55133:a0b] Unlimited access to network resources
+2014-06-11 19:14:34.870 HelloCordova[55133:a0b] [CDVTimer][statusbar] 130.774975ms
+2014-06-11 19:14:34.870 HelloCordova[55133:a0b] [CDVTimer][TotalPluginStartup] 131.285965ms
+2014-06-11 19:14:34.975 HelloCordova[55133:a0b] Resetting plugins due to page load.
+2014-06-11 19:14:35.965 HelloCordova[55133:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 19:30:28.516 HelloCordova[55598:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 19:30:28.522 HelloCordova[55598:a0b] Unlimited access to network resources
+2014-06-11 19:30:28.544 HelloCordova[55598:a0b] [CDVTimer][statusbar] 7.275045ms
+2014-06-11 19:30:28.545 HelloCordova[55598:a0b] [CDVTimer][TotalPluginStartup] 7.876039ms
+2014-06-11 19:30:28.649 HelloCordova[55598:a0b] Resetting plugins due to page load.
+2014-06-11 19:30:37.419 HelloCordova[55598:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 19:34:56.021 HelloCordova[56038:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 19:34:56.027 HelloCordova[56038:a0b] Unlimited access to network resources
+2014-06-11 19:34:56.050 HelloCordova[56038:a0b] [CDVTimer][statusbar] 6.848037ms
+2014-06-11 19:34:56.051 HelloCordova[56038:a0b] [CDVTimer][TotalPluginStartup] 7.308006ms
+2014-06-11 19:34:56.151 HelloCordova[56038:a0b] Resetting plugins due to page load.
+2014-06-11 19:35:25.805 HelloCordova[56038:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:35:46.755 HelloCordova[56468:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 19:35:46.761 HelloCordova[56468:a0b] Unlimited access to network resources
+2014-06-11 19:35:46.782 HelloCordova[56468:a0b] [CDVTimer][statusbar] 7.000983ms
+2014-06-11 19:35:46.783 HelloCordova[56468:a0b] [CDVTimer][TotalPluginStartup] 7.454991ms
+2014-06-11 19:35:46.857 HelloCordova[56468:a0b] Resetting plugins due to page load.
+2014-06-11 19:35:47.317 HelloCordova[56468:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 19:35:57.476 HelloCordova[56468:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:36:04.636 HelloCordova[56468:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:36:05.580 HelloCordova[56468:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:36:05.772 HelloCordova[56468:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:36:06.038 HelloCordova[56468:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:37:04.332 HelloCordova[56894:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 19:37:04.341 HelloCordova[56894:a0b] Unlimited access to network resources
+2014-06-11 19:37:04.378 HelloCordova[56894:a0b] [CDVTimer][statusbar] 15.770018ms
+2014-06-11 19:37:04.378 HelloCordova[56894:a0b] [CDVTimer][TotalPluginStartup] 16.354978ms
+2014-06-11 19:37:04.507 HelloCordova[56894:a0b] Resetting plugins due to page load.
+2014-06-11 19:37:05.114 HelloCordova[56894:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 19:37:15.412 HelloCordova[56894:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:37:19.421 HelloCordova[56894:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:37:26.370 HelloCordova[56894:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 19:37:28.121 HelloCordova[56894:a0b] Failed to load webpage with error: The URL can’t be shown
+2014-06-11 22:52:23.072 HelloCordova[57524:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:52:23.181 HelloCordova[57524:a0b] Unlimited access to network resources
+2014-06-11 22:52:24.966 HelloCordova[57524:a0b] [CDVTimer][statusbar] 1025.362968ms
+2014-06-11 22:52:24.966 HelloCordova[57524:a0b] [CDVTimer][TotalPluginStartup] 1025.960982ms
+2014-06-11 22:52:25.350 HelloCordova[57524:a0b] Resetting plugins due to page load.
+2014-06-11 22:52:37.509 HelloCordova[57941:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:52:37.519 HelloCordova[57941:a0b] Unlimited access to network resources
+2014-06-11 22:52:37.553 HelloCordova[57941:a0b] [CDVTimer][statusbar] 11.600971ms
+2014-06-11 22:52:37.553 HelloCordova[57941:a0b] [CDVTimer][TotalPluginStartup] 12.319028ms
+2014-06-11 22:52:37.687 HelloCordova[57941:a0b] Resetting plugins due to page load.
+2014-06-11 22:52:38.671 HelloCordova[57941:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 22:54:46.548 HelloCordova[58375:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:54:46.554 HelloCordova[58375:a0b] Unlimited access to network resources
+2014-06-11 22:54:46.645 HelloCordova[58375:a0b] [CDVTimer][statusbar] 76.120973ms
+2014-06-11 22:54:46.646 HelloCordova[58375:a0b] [CDVTimer][TotalPluginStartup] 76.504946ms
+2014-06-11 22:54:48.065 HelloCordova[58375:a0b] Resetting plugins due to page load.
+2014-06-11 22:54:48.539 HelloCordova[58375:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 22:55:42.491 HelloCordova[58804:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:55:42.497 HelloCordova[58804:a0b] Unlimited access to network resources
+2014-06-11 22:55:42.519 HelloCordova[58804:a0b] [CDVTimer][statusbar] 6.859004ms
+2014-06-11 22:55:42.519 HelloCordova[58804:a0b] [CDVTimer][TotalPluginStartup] 7.327974ms
+2014-06-11 22:55:42.585 HelloCordova[58804:a0b] Resetting plugins due to page load.
+2014-06-11 22:55:43.169 HelloCordova[58804:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 22:56:51.843 HelloCordova[59232:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:56:51.853 HelloCordova[59232:a0b] Unlimited access to network resources
+2014-06-11 22:56:51.897 HelloCordova[59232:a0b] [CDVTimer][statusbar] 10.843039ms
+2014-06-11 22:56:51.899 HelloCordova[59232:a0b] [CDVTimer][TotalPluginStartup] 13.171017ms
+2014-06-11 22:56:52.070 HelloCordova[59232:a0b] Resetting plugins due to page load.
+2014-06-11 22:57:04.084 HelloCordova[59232:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 22:57:46.996 HelloCordova[59660:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:57:47.005 HelloCordova[59660:a0b] Unlimited access to network resources
+2014-06-11 22:57:47.033 HelloCordova[59660:a0b] [CDVTimer][statusbar] 8.781970ms
+2014-06-11 22:57:47.033 HelloCordova[59660:a0b] [CDVTimer][TotalPluginStartup] 9.218037ms
+2014-06-11 22:57:47.128 HelloCordova[59660:a0b] Resetting plugins due to page load.
+2014-06-11 22:57:49.585 HelloCordova[59660:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-11 22:59:41.272 HelloCordova[60085:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-11 22:59:41.281 HelloCordova[60085:a0b] Unlimited access to network resources
+2014-06-11 22:59:41.305 HelloCordova[60085:a0b] [CDVTimer][statusbar] 8.679032ms
+2014-06-11 22:59:41.306 HelloCordova[60085:a0b] [CDVTimer][TotalPluginStartup] 9.212971ms
+2014-06-11 22:59:41.399 HelloCordova[60085:a0b] Resetting plugins due to page load.
+2014-06-11 23:00:32.748 HelloCordova[60085:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-06-11 23:00:42.420 HelloCordova[60085:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/beta
+2014-06-12 00:37:48.680 HelloCordova[60578:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-12 00:37:48.686 HelloCordova[60578:a0b] Unlimited access to network resources
+2014-06-12 00:37:48.774 HelloCordova[60578:a0b] [CDVTimer][statusbar] 8.041978ms
+2014-06-12 00:37:48.775 HelloCordova[60578:a0b] [CDVTimer][TotalPluginStartup] 8.509040ms
+2014-06-12 00:37:48.849 HelloCordova[60578:a0b] Resetting plugins due to page load.
+2014-06-12 00:37:51.900 HelloCordova[60578:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-12 00:38:14.797 HelloCordova[60578:a0b] Resetting plugins due to page load.
+2014-06-12 00:38:18.163 HelloCordova[60578:a0b] Finished load of: http://www.i-drain.net/userfiles/file/einbauanleitung_iboard.pdf
