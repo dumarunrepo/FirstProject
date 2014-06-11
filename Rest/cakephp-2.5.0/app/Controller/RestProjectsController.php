@@ -15,7 +15,7 @@ class RestProjectsController extends AppController {
     }
 
     public function indexByUser($id) {
-        $Projects = $this->Project->query("select projects.* from projects , permission where projects.project_id = permission.project_id and $id = permission.user_id");
+        $Projects = $this->Project->query("select projects.* from projects , permissions where projects.project_id = permissions.project_id and $id = permissions.user_id");
 	$this->set(array(
             'Projects' => $Projects,
             '_serialize' => array('Projects')
