@@ -24,8 +24,8 @@ INSERT INTO project_stage(project_id,project_stage,project_status,report_url) va
 INSERT INTO project_stage(project_id,project_stage,project_status,report_url) values ('3','Testing','completed','facebook.com');
 INSERT INTO project_stage(project_id,project_stage,project_status,report_url) values ('4','Aditya vasectomy','progress','facebook.com');
 
-INSERT INTO users(user_id, user_clientname, user_fullname, user_email, `user_password`, user_status) values ('9590946168','Siva','Aditya Udupa','udupa.pappu@popat.com','somehashvalue','1');
-INSERT INTO users(user_id, user_clientname, user_fullname, user_email, `user_password`, user_status) values ('9901199420','Siva','Monish Kaul','kaulmonish@gmail.com','somehashvalue','1');
+INSERT INTO users(user_id, user_clientname, user_fullname, user_address, user_designation) values ('9590946168','Siva','Aditya Udupa','abcd','some_designation');
+INSERT INTO users(user_id, user_clientname, user_fullname, user_address, user_designation) values ('9901199420','Siva','Monish Kaul','dcba','some_designation');
 
 INSERT INTO clients(name, email, designation, organisation, phone_no, address) values('siva','ksiva@gmail.com','CEO','Dumarun', '99011990119','Challaghatta-Bangalore');
 
