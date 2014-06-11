@@ -27,7 +27,7 @@ INSERT INTO project_stage(project_id,project_stage,project_status,report_url) va
 INSERT INTO users(user_id, user_clientname, user_fullname, user_email, `user_password`, user_status) values ('9590946168','Siva','Aditya Udupa','udupa.pappu@popat.com','somehashvalue','1');
 INSERT INTO users(user_id, user_clientname, user_fullname, user_email, `user_password`, user_status) values ('9901199420','Siva','Monish Kaul','kaulmonish@gmail.com','somehashvalue','1');
 
-INSERT INTO clients(name, email, designation, organisation, phone_no, address) values('siva','ksiva@gmail.com','CEO','Dumarun','Challaghatta-Bangalore');
+INSERT INTO clients(name, email, designation, organisation, phone_no, address) values('siva','ksiva@gmail.com','CEO','Dumarun', '99011990119','Challaghatta-Bangalore');
 
 INSERT INTO supports(email, contactNo) values ('support@bionivid.com', '9901199649');
 INSERT INTO sales(email, contactNo) values ('sales@bionivid.com', '9901199649');
