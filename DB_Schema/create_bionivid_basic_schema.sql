@@ -2,7 +2,7 @@ CREATE TABLE projects (
     project_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     project_name VARCHAR(50), 
     is_completed BOOLEAN DEFAULT 0,
-    client VARCHAR(50) DEFAULT 'Bionivid',
+    client VARCHAR(50) NOT NULL,
     description TEXT,
     start_date DATETIME DEFAULT NULL,
     end_date DATETIME DEFAULT NULL,
