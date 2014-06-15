@@ -18,13 +18,13 @@ CREATE TABLE IF NOT EXISTS permissions (
 );
 
 CREATE TABLE IF NOT EXISTS project_stage (
-    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     project_id VARCHAR(50),
     project_stage VARCHAR(50),
     project_status VARCHAR(50),
     start_date DATETIME DEFAULT NULL,
     end_date DATETIME DEFAULT NULL,
-    report_url TEXT
+    report_url TEXT,
+CONSTRAINT pk_projectstage PRIMARY KEY (project_id,project_stage)
 );
 
 CREATE TABLE IF NOT EXISTS `users`
@@ -70,3 +70,9 @@ email varchar(50) NOT NULL DEFAULT 'sales@bionivid.com',
 contactNo varchar(50) NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS `admins`
+(
+email_id varchar(100) NOT NULL PRIMARY KEY,
+name varchar(125),
+password varchar(50) NOT NULL
+);
