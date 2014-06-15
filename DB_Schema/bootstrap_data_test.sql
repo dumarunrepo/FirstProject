@@ -31,3 +31,5 @@ INSERT INTO clients(name, email, designation, organisation, phone_no, address) v
 
 INSERT INTO supports(email, contactNo) values ('support@bionivid.com', '9901199649');
 INSERT INTO sales(email, contactNo) values ('sales@bionivid.com', '9901199649');
+
+INSERT INTO admins values("admin@bionivid.com","admin","Password");
