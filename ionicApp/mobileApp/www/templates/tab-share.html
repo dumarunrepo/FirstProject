@@ -13,8 +13,8 @@
       </header>
       <div class="wrapper">
         <div class="feedback">
-          <input type="text" name="mobile" id="mobile" class="field" placeholder="Enter Your Phone No"/>
-          <input type="submit" value="Share" id="submit" class="sub-btn p2" />
+          <input type="text" name="mobile" id="mobile" class="field" placeholder="Enter Your Phone No" ng-model="bioNivid.newUserNumber"/>
+          <input type="button" value="Share" id="submit" class="sub-btn p2" ng-click="addPermissionForNewUser()"/>
           <p class="share-tit p2">HOW IT WORKS</p>
           <div class="wrapper p4">
             <p class="ph"> Enter phone number. </p>
