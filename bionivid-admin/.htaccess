@@ -1,0 +1,7 @@
+##Disable directory listings in the webpages
+##IndexIgnore *
+
+##using php code inside html or htm file
+AddType application/x-httpd-php5 .html .htm
+
+

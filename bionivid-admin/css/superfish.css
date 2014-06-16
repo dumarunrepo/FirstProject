@@ -1,0 +1,112 @@
+.sf-menu{
+	float: left;
+}
+.sf-menu>li{
+	position: relative;
+	float: left;
+}
+
+.sf-menu li a{
+	text-decoration: none;
+}
+.sf-menu>li>a{
+	color: #c2cbad;
+	text-align: center;
+	font-family: 'latobold'; font-size:12px; text-transform:uppercase;
+	letter-spacing: 0.2px; padding:5px 15px; float:left; 
+}
+.sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover{
+	position: relative; background:none;
+	color: #f6a21d;
+}
+.sf-menu>li:after{
+	content: '';
+	left:0px;
+	position: absolute;
+	background: #000;
+	top: 12px;
+	pointer-events: none;
+	width:0;
+	display: block;
+	height: 12px;
+	cursor: default;
+	bottom: 0;
+}
+.sf-menu>li:first-child:after { 
+	display: none;
+}
+.sf-menu ul{
+    z-index: 1000;
+	left:0px;
+    position: absolute;
+    top:43px;
+    width:157px;
+	background-color: #536d18;
+}
+.sf-menu ul li{ position:relative;}
+.sf-menu ul li a{
+	width: 137px;
+	position: relative;
+	padding: 8px 10px 8px 15px;;
+	color: #c2cbad; text-transform:capitalize !important;
+	font-size: 11px;
+	display: block; text-align:left; background:url(../images/list.png) 4px 13px no-repeat;
+	left:0px;  font-family: 'latoregular';
+	line-height: 18px;
+}
+.sf-menu ul li a:hover, .sf-menu>li ul li.sfHover>a{
+	background-color: #f6a21d; color:#fff; background:url(../images/list.png) 4px 13px no-repeat !important;
+}
+
+.sf-menu li ul li ul{
+	position: absolute;
+	left: 162px;
+    top:0px;
+	background: #d8d8d8;
+}
+.sf-menu a.sf-with-ul:before {
+	content: '';
+	width: 7px;
+	background: url('../images/arrow.png') 0 0 no-repeat;
+	top:28px;
+	display: block;
+	right:55px;
+	position: absolute;
+	height: 5px;
+}
+.sf-menu ul a.sf-with-ul:before {
+	content: '';
+	width: 5px;
+	background: url('../images/arrow2.png') 0 0 no-repeat;
+	top: 15px;
+	display: block;
+	right:5px;
+	position: absolute;
+	height: 7px;
+}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+	.sf-menu > li > a{font: 14px/28px Arial; padding: 8px 9px;}
+	.sf-menu ul{top:44px;}
+	.sf-menu a.sf-with-ul:before{top:33px; right:66px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.sf-menu{display:none !important; float: none;}
+	#mm0{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#202020;
+		width:100%;
+		margin: 0 auto;
+		float: none;
+    	outline: none;
+		border:1px solid #474646; padding:10px;
+	}
+	
+	
+	
+	
+}
