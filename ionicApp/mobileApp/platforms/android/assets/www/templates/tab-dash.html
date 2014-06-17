@@ -8,14 +8,24 @@
       <div class="wrapper">
         <div class="content">
           <div class="logo"> <a href="#"> <img src="img/logo.png" alt=""></a></div>
-              <select id="select" name="select" class="select">
-                <option value="option1">---- Select Project ----</option>
-                <option value="option1">Project 1</option>
-                <option value="option1">Project 2</option>
-                <option value="option1">Project 3</option>
-                <option value="option1">Project 4</option>
-              </select>
-              <button ng-click="showBetaScreen()">Go!</button>
+              <div ng-hide="bioNivid.isMobileNumberEntered">
+                <input type="text" placeholder="Enter the mobile number" ng-model="bioNivid.phoneNumber" />
+                <button class="button button-block button-balanced" ng-click="newNumberEntered()">
+                    Get Projects
+                </button>
+                <!--<button  value="Get Projects" class="button" ng-click="showBetaScreen()"/>-->
+              </div>
+              <div class="" ng-show="bioNivid.isMobileNumberEntered">
+                <button class="button button-block button-balanced" ng-click="toggleFirstScreen()">
+                    Change Number
+                </button>
+                <select class="select item-input" ng-options="data.project_name for data in projectList" ng-model="bioNivid.projectSelected">
+                  <option value="">Select Project</option>
+                </select>
+                <button class="button button-block button-balanced" ng-click="showBetaScreen()">
+                    Go
+                </button>
+              </div>
         </div>
       </div>
     </div>

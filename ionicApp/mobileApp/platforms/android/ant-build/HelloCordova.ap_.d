@@ -64,6 +64,7 @@
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/img/support.png \
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/js/app.js \
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/js/controllers.js \
+/Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/js/factories.js \
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/js/services.js \
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/lib/ionic \
 /Users/aadithyaudupa/Documents/projects/FirstProject/ionicApp/mobileApp/platforms/android/assets/www/lib/ionic/css \

@@ -101,7 +101,7 @@ angular.module('starter.controllers', [])
   }
 
   $scope.openTrackingPDF = function(url) {
-     var ref = window.open('http://www.i-drain.net/userfiles/file/einbauanleitung_iboard.pdf', '_blank', 'location=yes');
+     var ref = window.open(url, '_blank', 'location=yes');
   }
   $scope.getProjectTrackingInfo(sharedProperties.getProjectId());
 })
