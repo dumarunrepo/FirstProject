@@ -47,7 +47,6 @@ angular.module('starter.controllers', [])
 	$scope.showBetaScreen = function () {
 		if ($scope.bioNivid.projectSelected.project_id != null) {
 			sharedProperties.setProjectId($scope.bioNivid.projectSelected.project_id)
-			alert("Faak3")
 			$state.go('tab.beta');
 		} else {
 			alert("Please select a project")
