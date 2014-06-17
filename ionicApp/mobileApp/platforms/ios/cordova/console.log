@@ -1900,3 +1900,9 @@ Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContex
 2014-06-17 22:04:22.036 HelloCordova[5146:a0b] [CDVTimer][TotalPluginStartup] 13.347983ms
 2014-06-17 22:04:22.207 HelloCordova[5146:a0b] Resetting plugins due to page load.
 2014-06-17 22:04:23.900 HelloCordova[5146:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-06-17 23:06:53.484 HelloCordova[7065:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-17 23:06:53.526 HelloCordova[7065:a0b] Unlimited access to network resources
+2014-06-17 23:06:53.669 HelloCordova[7065:a0b] [CDVTimer][statusbar] 61.654985ms
+2014-06-17 23:06:53.670 HelloCordova[7065:a0b] [CDVTimer][TotalPluginStartup] 62.192976ms
+2014-06-17 23:06:53.755 HelloCordova[7065:a0b] Resetting plugins due to page load.
+2014-06-17 23:06:55.675 HelloCordova[7065:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
