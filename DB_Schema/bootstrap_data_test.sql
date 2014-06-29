@@ -1,7 +1,7 @@
-INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_1', '1', 'Mr A', 'This is a test Description for Udupa testing', NOW());
-INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_2', '1', 'Mr B', 'This is a test Description for Udupa testing', NOW());
-INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_3', '1', 'Mr A', 'This is a test Description for Udupa testing', NOW());
-INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_4', '1', 'Mr A', 'This is a test Description for Udupa testing', NOW());
+INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_1', '1', 'siva', 'This is a test Description for Udupa testing', NOW());
+INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_2', '1', 'siva', 'This is a test Description for Udupa testing', NOW());
+INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_3', '1', 'siva', 'This is a test Description for Udupa testing', NOW());
+INSERT INTO projects (project_name,is_completed, client, description, start_date) VALUES ('test_project_4', '1', 'siva', 'This is a test Description for Udupa testing', NOW());
 
 INSERT INTO permissions (project_id, user_id, permission_type) values('1','9590946168',1);
 INSERT INTO permissions (project_id, user_id, permission_type) values('2','9590946168',1);
