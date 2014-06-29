@@ -55,7 +55,7 @@ header("location:index.php");
 
                                             <div class="adc_group">
                                                 <label class="adc_label">Start Date</label>
-                                                <input type="text" name="startdate" id="startdate"/>
+                                                <input class="adc_field " type="text" name="startdate" id="startdate"/>
                                             </div>
 
 
@@ -79,7 +79,7 @@ foreach ($result as $name) {
 
                                             <div class="adc_group">
                                                 <label class="adc_label">End Date</label>
-                                                <input type="text" name="enddate" id="enddate"/>
+                                                <input class="adc_field " type="text" name="enddate" id="enddate"/>
 
                                             </div>
 
@@ -113,12 +113,16 @@ foreach ($result as $name) {
                         $("#startdate").datepicker({
                             dateFormat: "yy-mm-dd",
                             changeMonth: true, //this option for allowing user to select month
-                            changeYear: true //this option for allowing user to select from year range
+                            changeYear: true, //this option for allowing user to select from year range
+                         
                         });
-                        $("#enddate").datepicker({
+                       $("#enddate").datepicker({
                             dateFormat: "yy-mm-dd",
                             changeMonth: true, //this option for allowing user to select month
-                            changeYear: true //this option for allowing user to select from year range
+                            changeYear: true, //this option for allowing user to select from year range
+                            beforeShow: function(){
+                                $(this).datepicker('option','minDate',document.getElementById('startdate').value);
+                            }
                         });
 
                     }

@@ -125,13 +125,13 @@ header("location:index.php");
                <div class="pro_group1">
                    <br>
               <label class="pro_label1">Start Date</label>
-              <input type="text" name="startdate"  id="startdate"/><!--class="pro_field2"-->
+              <input class="adc_field " type="text" name="startdate"  id="startdate"/><!--class="pro_field2"-->
               <!--<div class="date"></div>-->
                </div>
                <div class="pro_group1">
                    <br>
               <label class="pro_label1">End Date</label>
-              <input type="text" name="enddate" id="enddate"/><!--class="pro_field2" -->
+              <input class="adc_field " type="text" name="enddate" id="enddate"/><!--class="pro_field2" -->
               <!--<div class="date"></div>-->
                </div>
                <div class="pro_group1">
@@ -159,22 +159,26 @@ header("location:index.php");
           </div>
 </section>
 <script>
-$(document).ready(
-  function () {
-    $("#startdate").datepicker({
-      dateFormat: "yy-mm-dd",
-      changeMonth: true,//this option for allowing user to select month
-      changeYear: true //this option for allowing user to select from year range
-    });
-$("#enddate").datepicker({
-      dateFormat: "yy-mm-dd",
-      changeMonth: true,//this option for allowing user to select month
-      changeYear: true //this option for allowing user to select from year range
-    });
+            $(document).ready(
+                    function() {
+                        $("#startdate").datepicker({
+                            dateFormat: "yy-mm-dd",
+                            changeMonth: true, //this option for allowing user to select month
+                            changeYear: true, //this option for allowing user to select from year range
+                         
+                        });
+                       $("#enddate").datepicker({
+                            dateFormat: "yy-mm-dd",
+                            changeMonth: true, //this option for allowing user to select month
+                            changeYear: true, //this option for allowing user to select from year range
+                            beforeShow: function(){
+                                $(this).datepicker('option','minDate',document.getElementById('startdate').value);
+                            }
+                        });
 
-  }
-);
-</script>
+                    }
+            );
+        </script>
 <!--==================section end===================-->
 <!--======================footer start===============-->
 	<?php include 'footer.php'; ?>
