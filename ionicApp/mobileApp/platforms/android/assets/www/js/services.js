@@ -1,26 +1,35 @@
 angular.module('starter.services', [])
 
-/**
- * A simple example service that returns some data.
- */
-.factory('Friends', function() {
-  // Might use a resource here that returns a JSON array
+.service('sharedProperties', function() {
+    var projectId = '';
+    var bid = '';
+    var phoneNumber = "";
+    var restBaseAPIURL = 'http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/cloud/';
 
-  // Some fake testing data
-  var friends = [
-    { id: 0, name: 'Scruff McGruff' },
-    { id: 1, name: 'G.I. Joe' },
-    { id: 2, name: 'Miss Frizzle' },
-    { id: 3, name: 'Ash Ketchum' }
-  ];
-
-  return {
-    all: function() {
-      return friends;
-    },
-    get: function(friendId) {
-      // Simple index lookup
-      return friends[friendId];
+    return {
+        getProjectId: function() {
+            return projectId;
+        },
+        setProjectId: function(val) {
+            projectId = val;
+        },
+        getBId: function() {
+            return bid;
+        },
+        setBId: function(val) {
+            bid = val;
+        },
+        getBaseAPIURL: function() {
+            return restBaseAPIURL;
+        },
+        setBaseAPIURL: function(val) {
+            restBaseAPIURL = val;
+        },
+        getPhoneNumber: function() {
+            return phoneNumber;
+        },
+        setPhoneNumber: function(val) {
+            phoneNumber = val;
+        }
     }
-  }
 });

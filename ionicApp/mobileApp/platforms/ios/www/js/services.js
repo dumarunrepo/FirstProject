@@ -3,7 +3,8 @@ angular.module('starter.services', [])
 .service('sharedProperties', function() {
     var projectId = '';
     var bid = '';
-    var bannerTab = false;
+    var phoneNumber = "";
+    var restBaseAPIURL = 'http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/cloud/';
 
     return {
         getProjectId: function() {
@@ -18,11 +19,17 @@ angular.module('starter.services', [])
         setBId: function(val) {
             bid = val;
         },
-        getBannerTab: function() {
-            return bannerTab;
+        getBaseAPIURL: function() {
+            return restBaseAPIURL;
         },
-        setBannerTab: function(val) {
-            bannerTab = val;
+        setBaseAPIURL: function(val) {
+            restBaseAPIURL = val;
+        },
+        getPhoneNumber: function() {
+            return phoneNumber;
+        },
+        setPhoneNumber: function(val) {
+            phoneNumber = val;
         }
     }
 });

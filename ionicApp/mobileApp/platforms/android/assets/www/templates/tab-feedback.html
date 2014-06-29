@@ -14,10 +14,10 @@
       <div class="wrapper">
         <div class="feedback">
           <form id="feedback" name="feedback">
-            <input type="text" name="name" id="name" placeholder="Name" class="field" />
-            <input type="text" name="name" id="name" placeholder="Email" class="field" />
-            <textarea cols="10" rows="5" class="field" placeholder="Feedback"></textarea>
-            <input type="submit" value="Submit" id="submit" class="sub-btn" ng-click="openPDF()"/>
+            <input type="text" name="name" id="name" placeholder="Name" class="field" ng-model="bioNivid.feedBackName" />
+            <input type="text" name="name" id="name" placeholder="Email" class="field" ng-model="bioNivid.feedBackEmail" />
+            <textarea cols="10" rows="5" class="field" placeholder="Feedback" ng-model="bioNivid.feedBackMessage"></textarea>
+            <input type="submit" value="Submit" class="sub-btn" ng-click="submitFeedBack()"/>
           </form>
         </div> 
       </div>   
