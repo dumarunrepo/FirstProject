@@ -205,4 +205,58 @@ angular.module('starter.controllers', [])
 	$scope.goBack = function () {
 		$state.go('tab.dash');
 	}
-});
+})
+
+.controller('NotificationCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.salesEmail = "";
+  $scope.bioNivid.salesContactNumber = "";
+  $scope.getSalesDetails = function () {
+  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
+  		var temp = data.Sales[0].Sale;
+		$scope.bioNivid.salesEmail = temp.email;
+  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
+	})
+  }
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
+
+.controller('StatisticsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.salesEmail = "";
+  $scope.bioNivid.salesContactNumber = "";
+  $scope.getSalesDetails = function () {
+  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
+  		var temp = data.Sales[0].Sale;
+		$scope.bioNivid.salesEmail = temp.email;
+  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
+	})
+  }
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
+
+.controller('ProductsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.salesEmail = "";
+  $scope.bioNivid.salesContactNumber = "";
+  $scope.getSalesDetails = function () {
+  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
+  		var temp = data.Sales[0].Sale;
+		$scope.bioNivid.salesEmail = temp.email;
+  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
+	})
+  }
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
