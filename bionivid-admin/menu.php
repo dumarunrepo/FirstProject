@@ -24,7 +24,13 @@
         <!--<li><a href="edit_user.php">Edit User</a></li>-->
 	</ul>
     </li>
- <li class="last"><a href="#">Settings</a> </li>
+  <li class="last"><a href="#">Settings</a> 
+  <ul>
+		<li><a href="change-password.php">Change Password</a></li>
+		<li><a href="notification-settings.php">Notification</a></li>
+        <!--<li><a href="product-settings.php">Products</a></li>-->
+	</ul>
+ </li>
  </ul>
  </nav>
 

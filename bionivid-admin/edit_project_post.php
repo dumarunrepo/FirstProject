@@ -1,5 +1,5 @@
 <?php
-$allowedExts = array("pdf", "doc", "docx");
+$allowedExts = array("pdf");
 $temp = explode(".", $_FILES["report"]["name"]);
 $extension = end($temp);
 $fileName=uniqid();
@@ -33,7 +33,7 @@ if (in_array($extension, $allowedExts)) {
       header("location:edit_project.php?id=".$id);
   }
 } else {
-  echo "Invalid file";
+  echo "Invalid file format choose pdf file only";
 }
 ?>
 

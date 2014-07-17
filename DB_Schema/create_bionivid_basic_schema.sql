@@ -3,9 +3,12 @@ CREATE TABLE projects (
     project_name VARCHAR(50), 
     is_completed BOOLEAN DEFAULT 0,
     client VARCHAR(50) NOT NULL,
+    manager VARCHAR(100) NOT NULL,
+    steps INT NOT NULL,
     description TEXT,
     start_date DATETIME DEFAULT NULL,
     end_date DATETIME DEFAULT NULL,
+    report_url TEXT,
     UNIQUE KEY (project_name, client)
 );
 
@@ -32,9 +35,11 @@ CREATE TABLE IF NOT EXISTS `users`
 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 user_id bigint NOT NULL,
 user_clientname varchar(25) NOT NULL,
+project_id INT NOT NULL,
 user_fullname varchar(25) NOT NULL,
 user_address varchar(50),
-user_designation varchar(50)
+user_designation varchar(50),
+CONSTRAINT uc_user UNIQUE (user_id,user_clientname,project_id)
 );
 
 CREATE TABLE IF NOT EXISTS `clients`
@@ -75,4 +80,13 @@ CREATE TABLE IF NOT EXISTS `admins`
 email_id varchar(100) NOT NULL PRIMARY KEY,
 name varchar(125),
 password varchar(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `notifications`
+(
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+client_name varchar(50) NOT NULL,
+title varchar(250) NOT NULL,
+message varchar(300) NOT NULL,
+status boolean default 0
 );

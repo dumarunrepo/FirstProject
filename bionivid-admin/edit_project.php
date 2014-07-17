@@ -146,11 +146,10 @@ header("location:index.php");
                </div>
                 <div class="pro_group2">
                     <br>
-              <label class="pro_label1">Report Upload</label>
-               <input type="file" name="report" class="pro_field1" id="report"/>
+              <label class="pro_label1">Report Upload(pdf only)</label>
+               <input type="file" name="report"  class="pro_field1" id="report"/>
               
                </div>
-          <!-- <div class="modi_submit1 p18"><br><a href="#">Add</a></div>-->
            </div>
            <input type="submit" id="edit_projects_form2" name="admin_login_submit" value="Save" class="pro_submit" />
             </form>

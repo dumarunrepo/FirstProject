@@ -5,6 +5,20 @@
         <meta charset="utf-8" />
         <title>Add User</title>
         <?php include 'csslinks.php'; ?>
+        <script>
+            function changeEvent() {
+                var myselect = document.getElementById("clientname");
+                window.location="add_user.php?cli="+myselect.options[myselect.selectedIndex].value;
+            }
+            function validateEntries(){
+                var myselect = document.getElementById("projectname");
+               if(myselect.selectedIndex===-1)
+                {
+                    alert("There are no projects under this client! Please add the projects before adding users");
+                    return false;
+                }
+            }
+        </script>
     </head>
     <body>
         <!--================header start===========-->
@@ -40,21 +54,43 @@ header("location:index.php");
                                 </div>
                                 <h2 class="p5">Add User</h2>
                                 <div class="wrapper">
-                                    <form action="add_user_post.php" method="post" id="add_user_form" class="add_user_form">
+                                    <form onsubmit="return validateEntries()"action="add_user_post.php" method="post" id="add_user_form" class="add_user_form">
                                         <div class="form-left p5">
                                             <div class="adc_group">
                                                 <label class="adc_label">Client Name *</label>
-                                                <select class="adc_field" id="clientname" name="clientname">
+                                                <select class="adc_field" id="clientname" name="clientname" onchange="changeEvent()">
                                                     <?php
+                                                    
                                                     include("DbController.php");
                                                     $dbObject = new DbController();
                                                     $result = $dbObject->selectExecute("SELECT name FROM clients");
+                                                    
                                                     foreach ($result as $name) {
-                                                        echo"<option value=\"$name[0]\">$name[0]</option>";
+                                                        if (isset($_GET['cli'])) {
+                                                            if($_GET['cli']==$name[0])
+                                                            {
+                                                                echo"<option value=\"$name[0]\" selected>$name[0]</option>";
+                                                                $clientname=$name[0];
+                                                            }
+                                                            else{
+                                                                echo"<option value=\"$name[0]\">$name[0]</option>";
+                                                                if(!isset($clientname)){
+                                                                $clientname=$name[0];
+                                                                }
+                                                            }
+                                                        }
+                                                        else{
+                                                            echo"<option value=\"$name[0]\">$name[0]</option>";
+                                                        if(!isset($clientname)){
+                                                                $clientname=$name[0];
+                                                                }
+                                                        }
                                                     }
+                                                    
                                                     ?>
                                                 </select>
                                             </div>
+                                            
 
                                             <div class="adc_group">
                                                 <label  class="adc_label">Name *</label>
@@ -68,9 +104,21 @@ header("location:index.php");
                                             </div>
                                         </div>
                                         <div class="form-left fright p5">
+                                            <div class="adc_group">
+                                                <label class="adc_label">Project Name *</label>
+                                                <select class="adc_field" id="projectname" name="projectname">
+                                                    <?php
+                                                    $result = $dbObject->selectExecute("SELECT project_name, project_id FROM projects where client='$clientname'");
+                                                    
+                                                    foreach ($result as $name) {
+                                                                echo"<option value=\"$name[1]\" selected>$name[0]</option>";
+                                                    }
+                                                    
+                                                    ?>
+                                                </select>
+                                            </div>
 
-
-                                            <div class="adc_group p17">
+                                            <div class="adc_group">
                                                 <label  class="adc_label">Phone *</label>
                                                 <input type="text" name="phone"  id="phone" class="adc_field " />
 

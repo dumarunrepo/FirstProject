@@ -98,7 +98,10 @@
             function onDelete()
             {
                 var selected = getSelected();
+                var answer = confirm ("Are you sure you want to delete?")
+                if(answer){
                 document.location.href = "./delete_user.php?id=" + selected;
+            }
 
             }
             function onEdit()

@@ -28,6 +28,7 @@ INSERT INTO users(user_id, user_clientname, user_fullname, user_address, user_de
 INSERT INTO users(user_id, user_clientname, user_fullname, user_address, user_designation) values ('9901199420','Siva','Monish Kaul','dcba','some_designation');
 
 INSERT INTO clients(name, email, designation, organisation, phone_no, address) values('siva','ksiva@gmail.com','CEO','Dumarun', '99011990119','Challaghatta-Bangalore');
+INSERT INTO clients(name, email, designation, organisation, phone_no, address) values('monish','monish@gmail.com','DEV','Dumarun', '99011990119','Challaghatta-Bangalore');
 
 INSERT INTO supports(email, contactNo) values ('support@bionivid.com', '9901199649');
 INSERT INTO sales(email, contactNo) values ('sales@bionivid.com', '9901199649');
