@@ -210,15 +210,19 @@ angular.module('starter.controllers', [])
 .controller('NotificationCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
 
   $scope.bioNivid = {}
-  $scope.bioNivid.salesEmail = "";
-  $scope.bioNivid.salesContactNumber = "";
-  $scope.getSalesDetails = function () {
-  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
-  		var temp = data.Sales[0].Sale;
-		$scope.bioNivid.salesEmail = temp.email;
-  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
+  $scope.bioNivid.bnNotifications = [];
+  $scope.getNotifications = function () {
+  	BNAppGenericFactory.fetchNotifications().success(function (data) {
+  		data.Notifications.forEach(function(entry) {
+  			var temp = {};
+  			temp["title"] = entry.Notification.title;
+  			temp["message"] = entry.Notification.message;
+  			$scope.bioNivid.bnNotifications.push(temp);
+  		});
 	})
   }
+
+  $scope.getNotifications();
 
   $scope.goBack = function () {
 		$state.go('tab.beta');
@@ -228,15 +232,20 @@ angular.module('starter.controllers', [])
 .controller('StatisticsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
 
   $scope.bioNivid = {}
-  $scope.bioNivid.salesEmail = "";
-  $scope.bioNivid.salesContactNumber = "";
-  $scope.getSalesDetails = function () {
-  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
-  		var temp = data.Sales[0].Sale;
-		$scope.bioNivid.salesEmail = temp.email;
-  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
+  $scope.bioNivid.projects = 0;
+  $scope.bioNivid.clients = 0;
+  $scope.bioNivid.feedbacks = 0;
+
+  $scope.getStatistics = function () {
+  	BNAppGenericFactory.fetchStatistics().success(function (data) {
+  		var temp = data.Statistics[0][0];
+		$scope.bioNivid.projects = temp.projects;
+  		$scope.bioNivid.clients = temp.clients;
+  		$scope.bioNivid.feedbacks = temp.feedbacks;	
 	})
   }
+
+  $scope.getStatistics();
 
   $scope.goBack = function () {
 		$state.go('tab.beta');
