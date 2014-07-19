@@ -28,7 +28,7 @@
   <ul>
 		<li><a href="change-password.php">Change Password</a></li>
 		<li><a href="notification-settings.php">Notification</a></li>
-        <!--<li><a href="product-settings.php">Products</a></li>-->
+        <li><a href="product-settings.php">Products</a></li>
 	</ul>
  </li>
  </ul>

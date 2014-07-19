@@ -90,3 +90,12 @@ title varchar(250) NOT NULL,
 message varchar(300) NOT NULL,
 status boolean default 0
 );
+
+CREATE TABLE IF NOT EXISTS `products`
+(
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+client_name varchar(50) NOT NULL,
+title varchar(250) NOT NULL,
+message varchar(300) NOT NULL,
+status boolean default 0
+);
