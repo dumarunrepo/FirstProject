@@ -42,6 +42,8 @@ Router::mapResources('Feedbacks');
 Router::mapResources('Sales');
 Router::mapResources('Supports');
 Router::mapResources('Permissions');
+Router::mapResources('Notifications');
+Router::mapResources('Products');
 Router::parseExtensions();
 
 /**
