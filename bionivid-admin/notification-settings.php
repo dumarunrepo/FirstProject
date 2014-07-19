@@ -11,6 +11,12 @@
 tit = document.notif.title;
 message = document.notif.description;
 var output=true;
+if(tit.value=="" || message.value=="")
+{
+    alert("Fields should not be empty please enter all fields");
+    output= false;
+}
+
 if(tit.value.length>100)
 {
     alert("Title should be less than 100 characters! Present length is:"+tit.value.length+" characters");
