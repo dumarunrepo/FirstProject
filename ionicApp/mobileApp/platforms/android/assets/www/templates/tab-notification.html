@@ -4,7 +4,7 @@
       <header>
         <div class="head-left" ng-click="goBack()">
           <img src="img/m-icon.png" class="fleft" alt="" />  
-          <p class="tit">Products</p>
+          <p class="tit">Notifications</p>
         </div>
         <div class="head-right">
           <img src="img/logo-small.png"  style="margin-top:-7px;" class="fleft" alt="" />
@@ -14,13 +14,12 @@
       <div class="wrapper">
         <div class="notification">
           <div class="wrapper p4"> 
-            <div class="wrapper p4" ng-repeat="pnotification in bioNivid.bnpNotifications">
-              <p class="note-text"><span>{{pnotification.title}}</span><br>
-                  {{pnotification.message}} </p>
+            <div class="wrapper p4" ng-repeat="notification in bioNivid.bnNotifications">
+              <p class="note-text"><span>{{notification.title}}</span><br>
+                  {{notification.message}} </p>
             </div>
           </div>
         </div>   
-      </div>
       </div>
     </div>
   </ion-content>

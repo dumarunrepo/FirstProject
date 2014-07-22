@@ -255,15 +255,19 @@ angular.module('starter.controllers', [])
 .controller('ProductsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
 
   $scope.bioNivid = {}
-  $scope.bioNivid.salesEmail = "";
-  $scope.bioNivid.salesContactNumber = "";
-  $scope.getSalesDetails = function () {
-  	BNAppGenericFactory.fetchSalesDetails().success (function (data) {
-  		var temp = data.Sales[0].Sale;
-		$scope.bioNivid.salesEmail = temp.email;
-  		$scope.bioNivid.salesContactNumber = temp.contactNo;	
-	})
+  $scope.bioNivid.bnpNotifications = [];
+  $scope.getProductNotifications = function () {
+    BNAppGenericFactory.fetchProductNotifications().success(function (data) {
+      data.Products.forEach(function(entry) {
+        var temp = {};
+        temp["title"] = entry.Product.title;
+        temp["message"] = entry.Product.message;
+        $scope.bioNivid.bnpNotifications.push(temp);
+      });
+  })
   }
+
+  $scope.getProductNotifications();
 
   $scope.goBack = function () {
 		$state.go('tab.beta');

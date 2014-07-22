@@ -57,6 +57,10 @@ angular.module('starter.factories', [])
         return $http.get(baseAPIURL + 'RestNotifications/index.json');
     }
 
+    BNAppGenericFactory.fetchProductNotifications = function () {
+        return $http.get(baseAPIURL + 'RestProducts/index.json');
+    }
+
     BNAppGenericFactory.fetchStatistics = function () {
         return $http.get(baseAPIURL + 'RestStatistics/index.json');
     }

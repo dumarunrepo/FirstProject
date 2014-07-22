@@ -58,6 +58,36 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       }
     })
 
+    .state('tab.notification', {
+      url: '/notification',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/tab-notification.html',
+          controller: 'NotificationCtrl'
+        }
+      }
+    })
+
+    .state('tab.statistics', {
+      url: '/statistics',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/tab-statistics.html',
+          controller: 'StatisticsCtrl'
+        }
+      }
+    })
+
+    .state('tab.products', {
+      url: '/products',
+      views: {
+        'tab-dash': {
+          templateUrl: 'templates/tab-products.html',
+          controller: 'ProductsCtrl'
+        }
+      }
+    })
+
     .state('tab.beta', {
       url: '/beta',
       views: {

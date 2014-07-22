@@ -205,4 +205,71 @@ angular.module('starter.controllers', [])
 	$scope.goBack = function () {
 		$state.go('tab.dash');
 	}
-});
+})
+
+.controller('NotificationCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.bnNotifications = [];
+  $scope.getNotifications = function () {
+  	BNAppGenericFactory.fetchNotifications().success(function (data) {
+  		data.Notifications.forEach(function(entry) {
+  			var temp = {};
+  			temp["title"] = entry.Notification.title;
+  			temp["message"] = entry.Notification.message;
+  			$scope.bioNivid.bnNotifications.push(temp);
+  		});
+	})
+  }
+
+  $scope.getNotifications();
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
+
+.controller('StatisticsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.projects = 0;
+  $scope.bioNivid.clients = 0;
+  $scope.bioNivid.feedbacks = 0;
+
+  $scope.getStatistics = function () {
+  	BNAppGenericFactory.fetchStatistics().success(function (data) {
+  		var temp = data.Statistics[0][0];
+		$scope.bioNivid.projects = temp.projects;
+  		$scope.bioNivid.clients = temp.clients;
+  		$scope.bioNivid.feedbacks = temp.feedbacks;	
+	})
+  }
+
+  $scope.getStatistics();
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
+
+.controller('ProductsCtrl', function($scope, $state, BNAppGenericFactory, sharedProperties) {
+
+  $scope.bioNivid = {}
+  $scope.bioNivid.bnpNotifications = [];
+  $scope.getProductNotifications = function () {
+    BNAppGenericFactory.fetchProductNotifications().success(function (data) {
+      data.Products.forEach(function(entry) {
+        var temp = {};
+        temp["title"] = entry.Product.title;
+        temp["message"] = entry.Product.message;
+        $scope.bioNivid.bnpNotifications.push(temp);
+      });
+  })
+  }
+
+  $scope.getProductNotifications();
+
+  $scope.goBack = function () {
+		$state.go('tab.beta');
+  }
+})
