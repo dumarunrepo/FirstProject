@@ -15,7 +15,18 @@ class RestProjectsController extends AppController {
     }
 
     public function indexByUser($id) {
-        $Projects = $this->Project->query("select projects.* from projects , permissions where projects.project_id = permissions.project_id and $id = permissions.user_id");
+        $Projects = $this->Project->query("select 
+		projects.project_id,
+		projects.project_name,
+		projects.is_completed,
+		projects.client,
+		projects.manager,
+		projects.steps,
+		projects.description,
+		projects.start_date,
+		projects.end_date,
+		concat('http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/admin/',projects.report_url) as report_url
+		from projects , permissions where projects.project_id = permissions.project_id and $id = permissions.user_id");
 	$this->set(array(
             'Projects' => $Projects,
             '_serialize' => array('Projects')
@@ -24,7 +35,14 @@ class RestProjectsController extends AppController {
     }
 
     public function trackingInfoByProject($id) {
-        $Projects = $this->Project->query("select * from project_stage where project_id = '$id'");
+        $Projects = $this->Project->query("select 
+	project_id,
+	project_stage,
+	project_status,
+	start_date,
+	end_date,
+	concat('http://ec2-54-201-175-230.us-west-2.compute.amazonaws.com/admin/',report_url) as report_url
+	from project_stage where project_id = '$id'");
 	$this->set(array(
             'Projects' => $Projects,
             '_serialize' => array('Projects')

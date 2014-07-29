@@ -99,6 +99,7 @@ title varchar(250) NOT NULL,
 message varchar(300) NOT NULL,
 status boolean default 0
 );
+
 CREATE TABLE IF NOT EXISTS `statistics`
 (
 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY
