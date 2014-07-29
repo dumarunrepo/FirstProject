@@ -138,7 +138,7 @@ header("location:index.php");
                                 <div class="pro-left1">
                                     <div class="adc_group">
                                         <label class="pro_label">Client Name</label>
-                                        <select  name="clientname" class="pro_field" id="clientname">
+                                        <select  name="clientname" class="pro_field" id="clientname" onchange="onChange()">
                                             <?php
                                             include("DbController.php");
                                             $dbObject = new DbController();
