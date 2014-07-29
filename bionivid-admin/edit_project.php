@@ -106,7 +106,7 @@ header("location:index.php");
                 echo "<td>$row[2]</td>";
                 echo "<td>".substr($row[3], 0, 10)."</td>";
                 echo "<td>".substr($row[4], 0, 10)."</td>";
-                echo "<td>&nbsp&nbsp&nbsp&nbsp&nbsp<a href='$row[5]'><img src='images/PDF.png'></a></td>";
+                echo "<td>&nbsp&nbsp&nbsp&nbsp&nbsp<a href='$row[5]' target='_blank'><img src='images/PDF.png'></a></td>";
                 echo "</tr>";
             }
             echo "</table>"
