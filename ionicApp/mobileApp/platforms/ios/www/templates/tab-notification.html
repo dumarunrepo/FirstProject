@@ -14,17 +14,9 @@
       <div class="wrapper">
         <div class="notification">
           <div class="wrapper p4"> 
-            <div class="wrapper p4">
-              <p class="note-text"><span>Bionivid Launched its First Mobile App</span><br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            </div>
-            <div class="wrapper p4">
-              <p class="note-text"><span>Bionivid Launched its First Mobile App</span><br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            </div>
-            <div class="wrapper p4">
-              <p class="note-text"><span>Bionivid Launched its First Mobile App</span><br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="wrapper p4" ng-repeat="notification in bioNivid.bnNotifications">
+              <p class="note-text"><span>{{notification.title}}</span><br>
+                  {{notification.message}} </p>
             </div>
           </div>
         </div>   
