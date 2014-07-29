@@ -56,7 +56,7 @@ return output;
                                     }
                                     ?>     
                                 </div>
-            <h2 class="p5">Notification</h2>
+            <h2 class="p5">Products</h2>
             <div class="wrapper">
                 
                 <form name ="notif" action="product_post.php" onsubmit="return validateEntries()" method="post" id="notification" class="add_user_form">
@@ -65,6 +65,7 @@ return output;
                 <div class="adc_group">
               <label class="adc_label">Select Client</label>
                 <select class="adc_field" id="clientname" name="clientname" style="width:100%;">
+                    <option value="-1">All</option>
               <?php
                                             include("DbController.php");
                                             $dbObject = new DbController();

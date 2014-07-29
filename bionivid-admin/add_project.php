@@ -11,6 +11,21 @@
         <!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
         <!-- Load jQuery UI Main JS  -->
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+         <script>
+        function onSubmitt()
+        {
+            var filename=document.from.report.value;
+            var temp =filename.split(".");
+            if(temp[temp.length-1]=="pdf")
+            {
+                return true;
+            }
+            else{
+                alert("Please choose only pdf files");
+            return false;
+        }
+        }
+    </script>
 
     </head>
     <body>
@@ -45,7 +60,7 @@ header("location:index.php");
                                 </div>
                                 <h2 class="p5">Add Project</h2>
                                 <div class="wrapper">
-                                    <form action="add_project_post.php" method="post" id="add_projects_form" class="add_clients_form" enctype="multipart/form-data">
+                                    <form name="from" action="add_project_post.php" method="post" id="add_projects_form" class="add_clients_form" enctype="multipart/form-data" onsubmit="return onSubmitt()">
                                         <div class="form-left">
 
                                             <div class="adc_group">
@@ -122,7 +137,7 @@ header("location:index.php");
                                         </div>
                                         <div class="adc_group p4">
                                             <label class="adc_label">Description</label>
-                                            <input type="text" name="description"  class="adc_field1 " id="description"/>
+                                            <textarea name="description" id="description" row="6" class="adc_field1" ></textarea>
 
                                         </div>
 
@@ -147,13 +162,13 @@ header("location:index.php");
             $(document).ready(
                     function() {
                         $("#startdate").datepicker({
-                            dateFormat: "yy-mm-dd",
+                            dateFormat: "dd-mm-yy",
                             changeMonth: true, //this option for allowing user to select month
                             changeYear: true, //this option for allowing user to select from year range
                          
                         });
                        $("#enddate").datepicker({
-                            dateFormat: "yy-mm-dd",
+                            dateFormat: "dd-mm-yy",
                             changeMonth: true, //this option for allowing user to select month
                             changeYear: true, //this option for allowing user to select from year range
                             beforeShow: function(){
