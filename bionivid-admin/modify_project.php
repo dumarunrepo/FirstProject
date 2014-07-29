@@ -193,11 +193,11 @@ $rowNo = 0;
 $result1 = $dbObject->selectExecute("SELECT * FROM projects where client=\"" . $clientname . "\"");
 foreach ($result1 as $row) {
     $rowNo++;
-    echo "<tr>";
+    echo "<tr>"; 
     echo "<td>$rowNo</td>";
     echo "<td>" . $row['project_name'] . "</td>";
-    echo "<td>" . $row['start_date'] . "</td>";
-    echo "<td>" . $row['end_date'] . "</td>";
+    echo "<td>".substr($row['start_date'], 0, 10)."</td>";
+    echo "<td>".substr($row['end_date'], 0, 10)."</td>";
     echo "<td>" . $row['description'] . "</td>";
     echo "<td><input type=\"radio\" id=\"selected\" name=\"project\" value=\"" . $row['project_id'] . "\"></td>";
     echo "</tr>";
