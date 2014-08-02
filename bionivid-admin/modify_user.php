@@ -98,16 +98,28 @@
             function onDelete()
             {
                 var selected = getSelected();
+                if(selected==null)
+                {
+                    alert("Please select user to delete!");
+                }
+                else{
                 var answer = confirm ("Are you sure you want to delete?")
                 if(answer){
                 document.location.href = "./delete_user.php?id=" + selected;
+            }
             }
 
             }
             function onEdit()
             {
                 var selected = getSelected();
+                if(selected==null)
+                {
+                    alert("Please select user to edit!");
+                }
+                else{
                 document.location.href = "./edit_user.php?id=" + selected;
+            }
             }
         </script>
     </head>
@@ -138,7 +150,7 @@ header("location:index.php");
                                 <div class="pro-left1">
                                     <div class="adc_group">
                                         <label class="pro_label">Client Name</label>
-                                        <select  name="clientname" class="pro_field" id="clientname">
+                                        <select  name="clientname" class="pro_field" id="clientname" onchange="onChange()">
                                             <?php
                                             include("DbController.php");
                                             $dbObject = new DbController();

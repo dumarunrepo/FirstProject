@@ -46,18 +46,18 @@ else if($_GET['status']==1)
               <div class="form-left p5">
               
                 <div class="adc_group">
-              <label class="adc_label">Name</label>
+              <label class="adc_label">Client Name *</label>
               <input type="text" name="name"  class="adc_field " id="name"/>
               </div>
               
                <div class="adc_group">
-                <label  class="adc_label">Email</label>
+                <label  class="adc_label">Email *</label>
                 <input type="text" name="email"  id="email" class="adc_field " />
                 
                </div>
                
                <div class="adc_group">
-                   <label class="adc_label ">Designation</label>
+                   <label class="adc_label ">Designation *</label>
                   <input type="text" name="designation" id="designation"  class="adc_field" />
                </div>
               </div>
@@ -74,12 +74,14 @@ else if($_GET['status']==1)
                </div>
                
                <div class="adc_group">
-                   <label class="adc_label ">Address</label>
+                   <label class="adc_label ">Address *</label>
                   <input type="text" name="address" id="address"  class="adc_field" />
                </div>
                </div>
                <input type="submit" id="add_clients_form1" name="add_clients_form" value="Save" class="adc_submit" />
+               
                </form>
+                <br><hr><p>Note: Please enter the client name carefully, it cannot be modified later</p>
               </div>
               
             </div>

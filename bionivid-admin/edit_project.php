@@ -11,6 +11,21 @@
     <!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
     <!-- Load jQuery UI Main JS  -->
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script>
+        function onSubmitt()
+        {
+            var filename=document.from.report.value;
+            var temp =filename.split(".");
+            if(temp[temp.length-1]=="pdf")
+            {
+                return true;
+            }
+            else{
+                alert("Please choose only pdf files");
+            return false;
+        }
+        }
+    </script>
 </head>
 	<body>
 <!--================header start===========-->
@@ -54,7 +69,7 @@ header("location:index.php");
             </div>
              <div class="wrapper p13">
             <h4 class="p11">Edit Project</h4>
-            <form action="edit_project_post.php" method="post" id="edit_projects_form" class="edit_projects_form" enctype="multipart/form-data">
+            <form name="from" action="edit_project_post.php" method="post" id="edit_projects_form" class="edit_projects_form" enctype="multipart/form-data" onsubmit="return onSubmitt()">
            <div class="wrapper p8">
            
              <div class="pro-left">
@@ -80,16 +95,18 @@ header("location:index.php");
            echo "<tr class=\"mob_ftr\">";
            echo "<td>Project Step</td>";
            echo "<td>Status</td>";
-           echo "<td>Startdate</td>";
-           echo "<td>Enddate</td>";
+           echo "<td>Start date</td>";
+           echo "<td>End date</td>";
+           echo "<td>Report Link</td>";
            echo "</tr>";
             foreach ($statusResult as $row)
             {
                 echo "<tr>";
                 echo "<td>$row[1]</td>";
                 echo "<td>$row[2]</td>";
-                echo "<td>$row[3]</td>";
-                echo "<td>$row[4]</td>";
+                echo "<td>".substr($row[3], 0, 10)."</td>";
+                echo "<td>".substr($row[4], 0, 10)."</td>";
+                echo "<td>&nbsp&nbsp&nbsp&nbsp&nbsp<a href='$row[5]' target='_blank'><img src='images/PDF.png'></a></td>";
                 echo "</tr>";
             }
             echo "</table>"
@@ -151,7 +168,7 @@ header("location:index.php");
               
                </div>
            </div>
-           <input type="submit" id="edit_projects_form2" name="admin_login_submit" value="Save" class="pro_submit" />
+                <input type="submit" id="edit_projects_form2" name="admin_login_submit" value="Save" class="pro_submit"/>
             </form>
             </div>
             </div>
@@ -161,13 +178,13 @@ header("location:index.php");
             $(document).ready(
                     function() {
                         $("#startdate").datepicker({
-                            dateFormat: "yy-mm-dd",
+                            dateFormat: "dd-mm-yy",
                             changeMonth: true, //this option for allowing user to select month
                             changeYear: true, //this option for allowing user to select from year range
                          
                         });
                        $("#enddate").datepicker({
-                            dateFormat: "yy-mm-dd",
+                            dateFormat: "dd-mm-yy",
                             changeMonth: true, //this option for allowing user to select month
                             changeYear: true, //this option for allowing user to select from year range
                             beforeShow: function(){

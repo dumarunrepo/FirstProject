@@ -8,7 +8,7 @@ $mypassword=$_POST['admin_password'];
 $myusername = stripslashes($myusername);
 $mypassword = stripslashes($mypassword);
 $tbl_name="admins";
-$sql="SELECT * FROM $tbl_name WHERE email_id='$myusername' and password='$mypassword'";
+$sql="SELECT * FROM $tbl_name WHERE email_id='$myusername' and BINARY password='$mypassword'";
 $result=$dbObject->selectExecute($sql);
 $count=count($result);
 if($count==1)

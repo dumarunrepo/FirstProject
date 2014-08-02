@@ -26,8 +26,8 @@ if (in_array($extension, $allowedExts)) {
     $dbObject= new DbController();
     
     $query= "INSERT INTO project_stage(project_id, project_stage, project_status, start_date,end_date,report_url) "
-    . "values('$id','$step','$status','$startdate','$enddate','$filePath') "
-    . "on duplicate key update project_status='$status', start_date='$startdate', end_date='$enddate',  report_url='$filePath'";
+    . "values('$id','$step','$status',STR_TO_DATE('$startdate','%d-%m-%Y'),STR_TO_DATE('$enddate','%d-%m-%Y'),'$filePath') "
+    . "on duplicate key update project_status='$status', start_date=STR_TO_DATE('$startdate','%d-%m-%Y'), end_date=STR_TO_DATE('$enddate','%d-%m-%Y'),  report_url='$filePath'";
     
     $dbObject->insertExecute($query);
       header("location:edit_project.php?id=".$id);

@@ -96,16 +96,28 @@
             function onDelete()
             {
                 var selected = getSelected();
+                if(selected==null)
+                {
+                    alert("Please select project to delete!");
+                }
+                else{
                 var answer = confirm ("Are you sure you want to delete?")
                 if(answer){
                 document.location.href = "./delete_project.php?id=" + selected;
+                }
             }
 
             }
             function onEdit()
             {
                 var selected = getSelected();
+                if(selected==null)
+                {
+                    alert("Please select project to edit!");
+                }
+                else{
                 document.location.href = "./edit_project.php?id=" + selected;
+            }
             }
         </script>
     </head>
@@ -181,11 +193,11 @@ $rowNo = 0;
 $result1 = $dbObject->selectExecute("SELECT * FROM projects where client=\"" . $clientname . "\"");
 foreach ($result1 as $row) {
     $rowNo++;
-    echo "<tr>";
+    echo "<tr>"; 
     echo "<td>$rowNo</td>";
     echo "<td>" . $row['project_name'] . "</td>";
-    echo "<td>" . $row['start_date'] . "</td>";
-    echo "<td>" . $row['end_date'] . "</td>";
+    echo "<td>".substr($row['start_date'], 0, 10)."</td>";
+    echo "<td>".substr($row['end_date'], 0, 10)."</td>";
     echo "<td>" . $row['description'] . "</td>";
     echo "<td><input type=\"radio\" id=\"selected\" name=\"project\" value=\"" . $row['project_id'] . "\"></td>";
     echo "</tr>";
