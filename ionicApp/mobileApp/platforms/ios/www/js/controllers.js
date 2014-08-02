@@ -7,11 +7,16 @@ angular.module('starter.controllers', [])
 	$scope.bioNivid.projectSelected = "";
 	$scope.bioNivid.phoneNumber = "";
 	$scope.bioNivid.isMobileNumberEntered = false;
+  $scope.bioNivid.client = "";
 
 	$scope.toggleFirstScreen = function () {
 		$scope.bioNivid.isMobileNumberEntered = false;
 		$scope.projectList = [];
 	}
+
+  $scope.projectChanged = function (data) {
+    $scope.bioNivid.client = data.client;
+  }
 
 	$scope.newNumberEntered = function () {
 		if($scope.bioNivid.phoneNumber != "") {
@@ -41,6 +46,7 @@ angular.module('starter.controllers', [])
 			data.Projects.forEach (function (dat) {
 				$scope.projectList.push(dat.projects)
 			});
+      $scope.bioNivid.client = $scope.projectList[0].client;
 		})
 	}
 

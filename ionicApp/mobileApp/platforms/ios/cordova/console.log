@@ -2020,3 +2020,131 @@ Jun  3 22:32:41 Aadithyas-MacBook-Pro.local HelloCordova[4325] <Error>: CGContex
 2014-07-21 21:41:03.843 HelloCordova[1919:a0b] [CDVTimer][TotalPluginStartup] 121.459961ms
 2014-07-21 21:41:03.945 HelloCordova[1919:a0b] Resetting plugins due to page load.
 2014-07-21 21:41:07.615 HelloCordova[1919:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-07-22 18:02:09.400 HelloCordova[3386:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-22 18:02:10.602 HelloCordova[3386:a0b] Unlimited access to network resources
+2014-07-22 18:02:13.918 HelloCordova[3386:a0b] [CDVTimer][statusbar] 203.850985ms
+2014-07-22 18:02:13.918 HelloCordova[3386:a0b] [CDVTimer][TotalPluginStartup] 204.349041ms
+2014-07-22 18:02:14.121 HelloCordova[3386:a0b] Resetting plugins due to page load.
+2014-07-22 18:02:16.923 HelloCordova[3386:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-07-29 18:40:20.224 HelloCordova[29147:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-29 18:40:20.514 HelloCordova[29147:a0b] Unlimited access to network resources
+2014-07-29 18:40:23.210 HelloCordova[29147:a0b] [CDVTimer][statusbar] 181.140006ms
+2014-07-29 18:40:23.210 HelloCordova[29147:a0b] [CDVTimer][TotalPluginStartup] 181.591988ms
+2014-07-29 18:40:23.394 HelloCordova[29147:a0b] Resetting plugins due to page load.
+2014-07-29 18:40:26.503 HelloCordova[29147:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-07-29 18:40:42.691 HelloCordova[29147:a0b] Received memory warning.
+2014-07-29 18:50:43.119 HelloCordova[30243:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-29 18:50:43.203 HelloCordova[30243:a0b] Unlimited access to network resources
+2014-07-29 18:50:43.983 HelloCordova[30243:a0b] [CDVTimer][statusbar] 100.027978ms
+2014-07-29 18:50:43.983 HelloCordova[30243:a0b] [CDVTimer][TotalPluginStartup] 100.518048ms
+2014-07-29 18:50:44.074 HelloCordova[30243:a0b] Resetting plugins due to page load.
+2014-07-29 18:50:46.269 HelloCordova[30243:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C1B022A-FEAD-4B4C-99EC-8E42BAC788C5/HelloCordova.app/www/index.html#/tab/dash
+2014-07-29 19:28:08.977 Bionivid[31068:a0b] Multi-tasking -> Device: YES, App: YES
+2014-07-29 19:28:08.983 Bionivid[31068:a0b] Unlimited access to network resources
+2014-07-29 19:28:09.123 Bionivid[31068:a0b] Fix applied for database locations?: YES
+2014-07-29 19:28:09.542 Bionivid[31068:a0b] [CDVTimer][statusbar] 236.674011ms
+2014-07-29 19:28:09.542 Bionivid[31068:a0b] [CDVTimer][TotalPluginStartup] 237.203002ms
+2014-07-29 19:28:09.629 Bionivid[31068:a0b] Resetting plugins due to page load.
+2014-07-29 19:28:12.935 Bionivid[31068:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:24:07.969 Bionivid[2992:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:24:08.495 Bionivid[2992:a0b] Unlimited access to network resources
+2014-08-02 16:24:09.811 Bionivid[2992:a0b] [CDVTimer][statusbar] 134.199977ms
+2014-08-02 16:24:09.812 Bionivid[2992:a0b] [CDVTimer][TotalPluginStartup] 134.828985ms
+2014-08-02 16:24:09.945 Bionivid[2992:a0b] Resetting plugins due to page load.
+2014-08-02 16:24:18.997 Bionivid[2992:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:35:23.265 Bionivid[3467:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:35:23.271 Bionivid[3467:a0b] Unlimited access to network resources
+2014-08-02 16:35:23.296 Bionivid[3467:a0b] [CDVTimer][statusbar] 7.035017ms
+2014-08-02 16:35:23.297 Bionivid[3467:a0b] [CDVTimer][TotalPluginStartup] 7.990003ms
+2014-08-02 16:35:23.383 Bionivid[3467:a0b] Resetting plugins due to page load.
+2014-08-02 16:35:24.105 Bionivid[3467:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:37:58.068 Bionivid[3912:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:37:58.080 Bionivid[3912:a0b] Unlimited access to network resources
+2014-08-02 16:37:58.127 Bionivid[3912:a0b] [CDVTimer][statusbar] 10.083973ms
+2014-08-02 16:37:58.129 Bionivid[3912:a0b] [CDVTimer][TotalPluginStartup] 11.777043ms
+2014-08-02 16:37:58.319 Bionivid[3912:a0b] Resetting plugins due to page load.
+2014-08-02 16:38:07.021 Bionivid[3912:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:39:05.061 Bionivid[4359:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:39:05.073 Bionivid[4359:a0b] Unlimited access to network resources
+2014-08-02 16:39:05.116 Bionivid[4359:a0b] [CDVTimer][statusbar] 13.161004ms
+2014-08-02 16:39:05.117 Bionivid[4359:a0b] [CDVTimer][TotalPluginStartup] 14.104009ms
+2014-08-02 16:39:05.283 Bionivid[4359:a0b] Resetting plugins due to page load.
+2014-08-02 16:39:05.777 Bionivid[4359:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:44:35.981 Bionivid[4816:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:44:35.991 Bionivid[4816:a0b] Unlimited access to network resources
+2014-08-02 16:44:36.026 Bionivid[4816:a0b] [CDVTimer][statusbar] 9.956956ms
+2014-08-02 16:44:36.026 Bionivid[4816:a0b] [CDVTimer][TotalPluginStartup] 10.508001ms
+2014-08-02 16:44:36.133 Bionivid[4816:a0b] Resetting plugins due to page load.
+2014-08-02 16:44:37.493 Bionivid[4816:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:46:05.858 Bionivid[5266:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:46:05.867 Bionivid[5266:a0b] Unlimited access to network resources
+2014-08-02 16:46:05.945 Bionivid[5266:a0b] [CDVTimer][statusbar] 15.700996ms
+2014-08-02 16:46:05.946 Bionivid[5266:a0b] [CDVTimer][TotalPluginStartup] 16.745985ms
+2014-08-02 16:46:06.114 Bionivid[5266:a0b] Resetting plugins due to page load.
+2014-08-02 16:46:14.687 Bionivid[5266:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:50:40.347 Bionivid[5745:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:50:40.354 Bionivid[5745:a0b] Unlimited access to network resources
+2014-08-02 16:50:40.386 Bionivid[5745:a0b] [CDVTimer][statusbar] 10.543048ms
+2014-08-02 16:50:40.387 Bionivid[5745:a0b] [CDVTimer][TotalPluginStartup] 11.927009ms
+2014-08-02 16:50:40.503 Bionivid[5745:a0b] Resetting plugins due to page load.
+2014-08-02 16:50:41.397 Bionivid[5745:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:53:29.063 Bionivid[6207:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:53:29.073 Bionivid[6207:a0b] Unlimited access to network resources
+2014-08-02 16:53:29.109 Bionivid[6207:a0b] [CDVTimer][statusbar] 10.158002ms
+2014-08-02 16:53:29.110 Bionivid[6207:a0b] [CDVTimer][TotalPluginStartup] 10.722995ms
+2014-08-02 16:53:29.294 Bionivid[6207:a0b] Resetting plugins due to page load.
+2014-08-02 16:53:29.820 Bionivid[6207:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:55:09.923 Bionivid[6663:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:55:09.940 Bionivid[6663:a0b] Unlimited access to network resources
+2014-08-02 16:55:10.010 Bionivid[6663:a0b] [CDVTimer][statusbar] 22.517979ms
+2014-08-02 16:55:10.012 Bionivid[6663:a0b] [CDVTimer][TotalPluginStartup] 24.785042ms
+2014-08-02 16:55:10.203 Bionivid[6663:a0b] Resetting plugins due to page load.
+2014-08-02 16:55:10.858 Bionivid[6663:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:57:01.200 Bionivid[7118:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:57:01.206 Bionivid[7118:a0b] Unlimited access to network resources
+2014-08-02 16:57:01.231 Bionivid[7118:a0b] [CDVTimer][statusbar] 9.051025ms
+2014-08-02 16:57:01.231 Bionivid[7118:a0b] [CDVTimer][TotalPluginStartup] 9.591043ms
+2014-08-02 16:57:01.324 Bionivid[7118:a0b] Resetting plugins due to page load.
+2014-08-02 16:57:01.879 Bionivid[7118:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 16:59:10.605 Bionivid[7560:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 16:59:10.617 Bionivid[7560:a0b] Unlimited access to network resources
+2014-08-02 16:59:10.682 Bionivid[7560:a0b] [CDVTimer][statusbar] 35.435021ms
+2014-08-02 16:59:10.686 Bionivid[7560:a0b] [CDVTimer][TotalPluginStartup] 39.425969ms
+2014-08-02 16:59:10.834 Bionivid[7560:a0b] Resetting plugins due to page load.
+2014-08-02 16:59:19.443 Bionivid[7560:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 17:08:12.127 Bionivid[8042:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 17:08:12.133 Bionivid[8042:a0b] Unlimited access to network resources
+2014-08-02 17:08:12.160 Bionivid[8042:a0b] [CDVTimer][statusbar] 9.546041ms
+2014-08-02 17:08:12.160 Bionivid[8042:a0b] [CDVTimer][TotalPluginStartup] 9.976983ms
+2014-08-02 17:08:12.253 Bionivid[8042:a0b] Resetting plugins due to page load.
+2014-08-02 17:08:12.798 Bionivid[8042:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 17:09:28.972 Bionivid[8488:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 17:09:28.981 Bionivid[8488:a0b] Unlimited access to network resources
+2014-08-02 17:09:29.015 Bionivid[8488:a0b] [CDVTimer][statusbar] 9.797037ms
+2014-08-02 17:09:29.018 Bionivid[8488:a0b] [CDVTimer][TotalPluginStartup] 12.116969ms
+2014-08-02 17:09:29.213 Bionivid[8488:a0b] Resetting plugins due to page load.
+2014-08-02 17:09:29.727 Bionivid[8488:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 17:11:50.526 Bionivid[8936:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 17:11:50.538 Bionivid[8936:a0b] Unlimited access to network resources
+2014-08-02 17:11:50.587 Bionivid[8936:a0b] [CDVTimer][statusbar] 13.634026ms
+2014-08-02 17:11:50.587 Bionivid[8936:a0b] [CDVTimer][TotalPluginStartup] 14.231980ms
+2014-08-02 17:11:50.712 Bionivid[8936:a0b] Resetting plugins due to page load.
+2014-08-02 17:11:59.258 Bionivid[8936:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 17:13:52.265 Bionivid[9346:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 17:13:52.271 Bionivid[9346:a0b] Unlimited access to network resources
+2014-08-02 17:13:52.293 Bionivid[9346:a0b] [CDVTimer][statusbar] 7.304966ms
+2014-08-02 17:13:52.294 Bionivid[9346:a0b] [CDVTimer][TotalPluginStartup] 7.880032ms
+2014-08-02 17:13:52.319 Bionivid[9346:a0b] Resetting plugins due to page load.
+2014-08-02 17:13:52.796 Bionivid[9346:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 17:14:09.412 Bionivid[9801:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 17:14:09.421 Bionivid[9801:a0b] Unlimited access to network resources
+2014-08-02 17:14:09.447 Bionivid[9801:a0b] [CDVTimer][statusbar] 7.112026ms
+2014-08-02 17:14:09.448 Bionivid[9801:a0b] [CDVTimer][TotalPluginStartup] 7.643998ms
+2014-08-02 17:14:09.531 Bionivid[9801:a0b] Resetting plugins due to page load.
+2014-08-02 17:14:09.984 Bionivid[9801:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash
+2014-08-02 20:10:26.254 Bionivid[10302:a0b] Multi-tasking -> Device: YES, App: YES
+2014-08-02 20:10:26.260 Bionivid[10302:a0b] Unlimited access to network resources
+2014-08-02 20:10:26.282 Bionivid[10302:a0b] [CDVTimer][statusbar] 6.914973ms
+2014-08-02 20:10:26.282 Bionivid[10302:a0b] [CDVTimer][TotalPluginStartup] 7.353961ms
+2014-08-02 20:10:26.361 Bionivid[10302:a0b] Resetting plugins due to page load.
+2014-08-02 20:10:26.921 Bionivid[10302:a0b] Finished load of: file:///Users/aadithyaudupa/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F953B4E5-1E73-4B5E-A997-8BD654EBC6CC/Bionivid.app/www/index.html#/tab/dash

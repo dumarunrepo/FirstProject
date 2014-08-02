@@ -24,11 +24,11 @@
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
-    <name>HelloCordova</name>
+    <name>Bionivid</name>
     <description>
-        An Ionic Framework and Cordova project.
+        A Dumarun Mobile App
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
+    <author email="udupa.adithya@gmail.com" href="http://dumarun.com/">
       Ionic Framework Team
     </author>
     <content src="index.html" />
@@ -36,6 +36,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
+    <preference name="Orientation" value="portrait" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
     <feature name="StatusBar">
