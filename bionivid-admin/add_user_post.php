@@ -14,9 +14,11 @@ $sql="INSERT INTO users(user_id,user_clientname, project_id, user_fullname,user_
         . "values($phone,'$clientname',$projectname,'$name','$address','$designation')";
 
 $permSql="INSERT INTO permissions(project_id,user_id,permission_type) values('$projectname','$phone',1)";
+$superUserPermSql="INSERT INTO permissions(project_id,user_id,permission_type) values('$projectname','786',1)";
 
 $result=$dbObject->insertExecute($sql);
 $result=$dbObject->insertExecute($permSql);
+$result=$dbObject->insertExecute($superUserPermSql);
 if($result)
 {
 header("location:add_user.php?status=0");

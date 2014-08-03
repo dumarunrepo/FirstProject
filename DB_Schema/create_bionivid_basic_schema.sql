@@ -42,6 +42,8 @@ user_designation varchar(50),
 CONSTRAINT uc_user UNIQUE (user_id,user_clientname,project_id)
 );
 
+INSERT INTO users(user_id, user_clientname, user_fullname) values ('786','Bionivid','Super-Admin');
+
 CREATE TABLE IF NOT EXISTS `clients`
 (
 name varchar(50) NOT NULL PRIMARY KEY,
@@ -99,6 +101,8 @@ title varchar(250) NOT NULL,
 message varchar(300) NOT NULL,
 status boolean default 0
 );
+
+
 
 CREATE TABLE IF NOT EXISTS `statistics`
 (
