@@ -6,8 +6,8 @@ CREATE TABLE projects (
     manager VARCHAR(100) NOT NULL,
     steps INT NOT NULL,
     description TEXT,
-    start_date DATETIME DEFAULT NULL,
-    end_date DATETIME DEFAULT NULL,
+    start_date DATE DEFAULT NULL,
+    end_date DATE DEFAULT NULL,
     report_url TEXT,
     UNIQUE KEY (project_name, client)
 );
@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS project_stage (
     project_id VARCHAR(50),
     project_stage VARCHAR(50),
     project_status VARCHAR(50),
-    start_date DATETIME DEFAULT NULL,
-    end_date DATETIME DEFAULT NULL,
+    start_date DATE DEFAULT NULL,
+    end_date DATE DEFAULT NULL,
     report_url TEXT,
 CONSTRAINT pk_projectstage PRIMARY KEY (project_id,project_stage)
 );
